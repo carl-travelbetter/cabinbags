@@ -1,0 +1,209 @@
+{
+ "ItemsResult": {
+  "Items": [
+   {
+    "ASIN": "B0F24VSG1J",
+    "DetailPageURL": "https://www.amazon.co.uk/dp/B0F24VSG1J?tag=travelbette0d-21&linkCode=ogi&th=1&psc=1",
+    "Images": {
+     "Primary": {
+      "Large": {
+       "Height": 500,
+       "URL": "https://m.media-amazon.com/images/I/41ZQ+D9WVOL._SL500_.jpg",
+       "Width": 500
+      }
+     }
+    },
+    "ItemInfo": {
+     "ProductInfo": {
+      "Color": {
+       "DisplayValue": "Black",
+       "Label": "Color",
+       "Locale": "en_GB"
+      },
+      "ItemDimensions": {
+       "Height": {
+        "DisplayValue": 21.653543285,
+        "Label": "Height",
+        "Locale": "en_GB",
+        "Unit": "inches"
+       },
+       "Length": {
+        "DisplayValue": 9.055118101,
+        "Label": "Length",
+        "Locale": "en_GB",
+        "Unit": "inches"
+       },
+       "Weight": {
+        "DisplayValue": 7.936641432,
+        "Label": "Weight",
+        "Locale": "en_GB",
+        "Unit": "pounds"
+       },
+       "Width": {
+        "DisplayValue": 15.74803148,
+        "Label": "Width",
+        "Locale": "en_GB",
+        "Unit": "Inches"
+       }
+      },
+      "Size": {
+       "DisplayValue": "55x40x23cm",
+       "Label": "Size",
+       "Locale": "en_GB"
+      }
+     }
+    },
+    "Offers": {
+     "Listings": [
+      {
+       "Id": "rf0z6EqoN1rTMbvS63W4maMvMhRH%2BOqbsjWt9EEOng4WA0TjKd9k%2B%2FWX3bfqiUTwLlxn8lugkN%2Bw0yBhukP43I5Imgx1G0R1hrwHNMAb2IotqIIuTnyeIzwqeduZPIJUd5PkxhfIDpTalKliVS58FNX1kGmu4aG7UrLUNdhD8c%2FP1YfwSI1%2FgATCG12zNi7v",
+       "Price": {
+        "Amount": 139.99,
+        "Currency": "GBP",
+        "DisplayAmount": "£139.99"
+       },
+       "ViolatesMAP": false
+      }
+     ]
+    }
+   },
+   {
+    "ASIN": "B0F5989PMJ",
+    "DetailPageURL": "https://www.amazon.co.uk/dp/B0F5989PMJ?tag=travelbette0d-21&linkCode=ogi&th=1&psc=1",
+    "Images": {
+     "Primary": {
+      "Large": {
+       "Height": 500,
+       "URL": "https://m.media-amazon.com/images/I/41Air32OAyL._SL500_.jpg",
+       "Width": 404
+      }
+     }
+    },
+    "ItemInfo": {
+     "ProductInfo": {
+      "Color": {
+       "DisplayValue": "Light Purple",
+       "Label": "Color",
+       "Locale": "en_GB"
+      },
+      "ItemDimensions": {
+       "Height": {
+        "DisplayValue": 0.0393700787,
+        "Label": "Height",
+        "Locale": "en_GB",
+        "Unit": "inches"
+       },
+       "Length": {
+        "DisplayValue": 0.0393700787,
+        "Label": "Length",
+        "Locale": "en_GB",
+        "Unit": "inches"
+       },
+       "Width": {
+        "DisplayValue": 0.0393700787,
+        "Label": "Width",
+        "Locale": "en_GB",
+        "Unit": "inches"
+       }
+      },
+      "Size": {
+       "DisplayValue": "45×36×20cm-30L",
+       "Label": "Size",
+       "Locale": "en_GB"
+      }
+     }
+    },
+    "Offers": {
+     "Listings": [
+      {
+       "Id": "rf0z6EqoN1rTMbvS63W4mfhbg3hYU%2FxtQimRFnfShE%2Bg1D%2FijlQ%2Flga%2Bm7bjwPzUqSgpO%2FFGcTzjzSBfXn0eKS4s7eYIYtlXNas640ZwwRl1IfFg9bJBZ3kK4PtrJJLedhT%2BHOYQrffb9z4fGcsNCB95P1%2Bu4iQWY5p1bBV2PuqcMbuCI39XOn6C88BxuG%2BN",
+       "Price": {
+        "Amount": 35.69,
+        "Currency": "GBP",
+        "DisplayAmount": "£35.69",
+        "Savings": {
+         "Amount": 6.3,
+         "Currency": "GBP",
+         "DisplayAmount": "£6.30 (15%)",
+         "Percentage": 15
+        }
+       },
+       "ViolatesMAP": false
+      }
+     ]
+    }
+   },
+   {
+    "ASIN": "B0C7Q27VBF",
+    "DetailPageURL": "https://www.amazon.co.uk/dp/B0C7Q27VBF?tag=travelbette0d-21&linkCode=ogi&th=1&psc=1",
+    "Images": {
+     "Primary": {
+      "Large": {
+       "Height": 500,
+       "URL": "https://m.media-amazon.com/images/I/41MUrFcqP+L._SL500_.jpg",
+       "Width": 500
+      }
+     }
+    },
+    "ItemInfo": {
+     "ProductInfo": {
+      "Color": {
+       "DisplayValue": "Orange",
+       "Label": "Color",
+       "Locale": "en_GB"
+      },
+      "ItemDimensions": {
+       "Height": {
+        "DisplayValue": 16.929133841,
+        "Label": "Height",
+        "Locale": "en_GB",
+        "Unit": "inches"
+       },
+       "Length": {
+        "DisplayValue": 16.141732267,
+        "Label": "Length",
+        "Locale": "en_GB",
+        "Unit": "inches"
+       },
+       "Weight": {
+        "DisplayValue": 6.393405598,
+        "Label": "Weight",
+        "Locale": "en_GB",
+        "Unit": "pounds"
+       },
+       "Width": {
+        "DisplayValue": 8.267716527,
+        "Label": "Width",
+        "Locale": "en_GB",
+        "Unit": "inches"
+       }
+      },
+      "Size": {
+       "DisplayValue": "16 Inch",
+       "Label": "Size",
+       "Locale": "en_GB"
+      },
+      "UnitCount": {
+       "DisplayValue": 1,
+       "Label": "NumberOfItems",
+       "Locale": "en_US"
+      }
+     }
+    },
+    "Offers": {
+     "Listings": [
+      {
+       "Id": "rf0z6EqoN1rTMbvS63W4mWj6ab03HLbZSfY1hMp7YQfr%2Bz21EvPwYOv7HYDaaamA4WGLV7qbCJjrwQXwsmrJcICusEmZCVEiS7y1%2FiHLZUyCgawU2G1qj3f5nUrFxJwlIbQi5p6OZLRH44pEBbXaIpy%2BM1jItgfmhNsh%2FLKT7cPSvgUCUGvPf9dnvdWiswd4",
+       "Price": {
+        "Amount": 129.99,
+        "Currency": "GBP",
+        "DisplayAmount": "£129.99"
+       },
+       "ViolatesMAP": false
+      }
+     ]
+    }
+   }
+  ]
+ }
+}
