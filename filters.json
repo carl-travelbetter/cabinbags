@@ -1,0 +1,46 @@
+{
+  "filters": {
+    "cabinuse": [
+      {
+        "id": "underseat",
+        "label": "Underseat Cabin Bag"
+      },
+      {
+        "id": "overhead",
+        "label": "Overhead Cabin Size"
+      }
+    ],
+    "laptopfit": [
+      {
+        "id": "13inch",
+        "label": "Fits up to 13-inch Laptop"
+      },
+      {
+        "id": "15inch",
+        "label": "Fits up to 15-inch Laptop"
+      },
+      {
+        "id": "17inch",
+        "label": "Fits 17-inch Laptop"
+      }
+    ],
+    "features": [
+      {
+        "id": "usbcharging",
+        "label": "USB Charging Port"
+      },
+      {
+        "id": "spinnerwheels",
+        "label": "4 Spinner Wheels"
+      },
+      {
+        "id": "quietwheels",
+        "label": "Quiet Wheels"
+      },
+      {
+        "id": "expandable",
+        "label": "Expandable"
+      }
+    ]
+  }
+}
