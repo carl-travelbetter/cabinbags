@@ -1,0 +1,138 @@
+body {
+    
+  font-family: sans-serif;
+  font-size:16px;  
+  box-sizing: border-box;
+}
+
+.gearCard {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;  
+  background-color: #c6cef7; /* optional: or keep your current color */
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  box-sizing: border-box;  
+  text-align: left;
+  width: 80%vw;
+  max-width:600px;
+}
+
+.gearCard:hover {
+  transform: translateY(-3px);
+}
+
+.gearCard h3 {
+  margin-top: 0;
+  color: #004080;
+}
+
+.gearCard p {
+  margin: 0.75rem;
+}
+
+.searchButton {
+  background-color: #004080;
+  color: white;
+  border: none;
+  padding: 0.75rem 0.75rem;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;  
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.searchButton:hover {
+  background-color: #0066cc;
+}
+
+.filter-btn {
+  background-color: #fff;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;  
+  cursor: pointer;
+}
+.filter-btn.active {
+  background-color: #0077cc;
+  color: #fff;
+  border-color: #0077cc;
+}
+
+.product-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60vw;
+  max-width: 300px;
+  border-radius: 12px;
+}
+
+.product-info {
+   display: block;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   color: black;
+}
+
+.buyit-button {
+    display:block;
+    padding:0.5rem;
+    margin-top:1.5rem;
+    width:50vw;
+    max-width:200px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #f5b942;
+    border-radius: 12px;
+    color:black;
+}
+
+.buyit-button:hover {
+    background-color: #f5af0c;
+    font-size:18px;
+    color:black;
+}
+
+.nomatch {
+    font-size:24px;
+    color:purple;
+    text-align:center;
+    padding:10px;
+}
+
+.buttonbar {
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    padding:0.5rem;
+    background-color: #dcf0fc;
+    border-radius: 12px;
+    max-width:800px;
+}
+
+.controlbar {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0.5em;
+    padding:0.5rem;
+    background-color: #dcf0fc;
+    border-radius: 12px;
+    max-width:800px;
+}
+
+.filterbar {
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    padding:0.5rem;
+    background-color: #dcf0fc;
+    border-radius: 12px;
+    max-width:800px;
+}
