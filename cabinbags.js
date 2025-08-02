@@ -148,7 +148,7 @@ function loadFilters()
         .map(btn => btn.dataset.label);
     
    });  
-  //Add character button to the character filters.
+  //Add tbrating button to the filters.
   tbRatings.appendChild(filterButton);  
  });
 
@@ -173,15 +173,12 @@ function loadFilters()
   featureOptions.appendChild(filterButton);  
  });
  
- filterTab.appendChild(characterOptions);
- filterTab.appendChild(typeOptions);
- filterTab.appendChild(tbRatings);
+ filterTab.appendChild(cabinUseOptions);
+ filterTab.appendChild(laptopFitOptions);
  filterTab.appendChild(featureOptions);
- // filterTab.appendChild(materialFilters);
-
+ filterTab.appendChild(tbRatings);
  
- 
-}
+} //End of Function Load Filters
 
 //Function to allow users to hide the filter options
 function showFilters()
