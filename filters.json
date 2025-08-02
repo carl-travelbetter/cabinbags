@@ -54,6 +54,32 @@
         "label": "Expandable"
       }
     ],
+    "weight": [
+      {
+        "id": "5",
+        "label": "5kg or lower"
+      },
+      {
+        "id": "6",
+        "label": "6kg"
+      },
+      {
+        "id": "7",
+        "label": "7kg"
+      },
+      {
+        "id": "8",
+        "label": "8kg"
+      },
+      {
+        "id": "9",
+        "label": "9kg"
+      },
+      {
+        "id": "10",
+        "label": "10kg or heavier"
+      }
+    ],
     "tbrating": [
       {
         "id": "3",
