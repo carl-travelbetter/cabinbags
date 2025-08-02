@@ -354,7 +354,8 @@ function loadFilteredResults()
      
      results.appendChild(gearCard);
    });
-}
+  hideFilters();
+} //End of apply filters function
 
 //Clear all filters and reload all results
 function clearFilters()
@@ -370,7 +371,7 @@ function clearFilters()
         ratingsFilters = [];
         filteredAdditionalInfo = additionalInfo;
         loadFilteredResults();
-        hideFilters();
+        //hideFilters();
 }
 
 //Return the top three results as selected by Travelbetter
