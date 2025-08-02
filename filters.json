@@ -21,7 +21,19 @@
       },
       {
         "id": "17inch",
-        "label": "Fits 17-inch Laptop"
+        "label": "Fits up to 17-inch Laptop"
+      },
+       {
+        "id": "19inch",
+        "label": "Fits up to 19-inch Laptop"
+      },
+      {
+        "id": "21inch",
+        "label": "Fits up to 21-inch Laptop"
+      },
+      {
+        "id": "24inch",
+        "label": "Fits up to 24-inch Laptop"
       }
     ],
     "features": [
