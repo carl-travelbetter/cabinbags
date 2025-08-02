@@ -1,8 +1,8 @@
 //Active filters
 let activeFilters = [];
-let characterFilters = [];
-let priceFilters = [];
-let typeFilters = [];
+let cabinUseFilters = [];
+let laptopFitFilters = [];
+let featureFilters = [];
 let ratingsFilters = [];
 
 //Filtered List
@@ -89,7 +89,7 @@ function loadFilters()
  const featureOptions = document.createElement("div");
  const featureOptionsHeader = document.createElement("h3");
  featureOptionsHeader.textContent = "Features";
- featureOptions.appendChild(laptopFitOptionsHeader);
+ featureOptions.appendChild(featureOptionsHeader);
  
 
  //load the character filter buttons
@@ -104,7 +104,7 @@ function loadFilters()
   filterButton.addEventListener("click", () => {
       filterButton.classList.toggle("active");
     
-     characterFilters = Array.from(document.querySelectorAll('.filter-btn.active'))
+     cabinUseFilters = Array.from(document.querySelectorAll('.filter-btn.active'))
         .map(btn => btn.dataset.label);
 
     
@@ -125,7 +125,7 @@ function loadFilters()
   filterButton.addEventListener("click", () => {
       filterButton.classList.toggle("active");
     
-     typeFilters = Array.from(document.querySelectorAll('.filter-btn.active'))
+     laptopFitFilters = Array.from(document.querySelectorAll('.filter-btn.active'))
         .map(btn => btn.dataset.label);
     
    });  
@@ -164,7 +164,7 @@ function loadFilters()
   filterButton.addEventListener("click", () => {
       filterButton.classList.toggle("active");
     
-     characterFilters = Array.from(document.querySelectorAll('.filter-btn.active'))
+     featureFilters = Array.from(document.querySelectorAll('.filter-btn.active'))
         .map(btn => btn.dataset.label);
 
     
