@@ -64,7 +64,7 @@ function loadFilters()
  //Commented out this option for now to enable the fitler options to remain in place when hiding the options
  //filterTab.innerHTML = "";
  const filterTitle = document.createElement("h2");
- filterTitle.textContent = "Search Options";
+ filterTitle.textContent = "Filter Options";
  filterTab.appendChild(filterTitle);
  
  //tb rating Filters
@@ -73,21 +73,27 @@ function loadFilters()
  tbRatingsHeader.textContent = "Travelbetter Rating";
  tbRatings.appendChild(tbRatingsHeader);
 
- //Character Filters
- const characterOptions = document.createElement("div");
- const characterOptionsHeader = document.createElement("h3");
- characterOptionsHeader.textContent = "Characters";
- characterOptions.appendChild(characterOptionsHeader);
+ //Cabin Use Filters
+ const cabinUseOptions = document.createElement("div");
+ const cabinUseOptionsHeader = document.createElement("h3");
+ cabinUseOptionsHeader.textContent = "Cabin Use";
+ cabinUseOptions.appendChild(cabinUseOptionsHeader);
 
- //Type Filters
- const typeOptions = document.createElement("div");
- const typeOptionsHeader = document.createElement("h3");
- typeOptionsHeader.textContent = "Type";
- typeOptions.appendChild(typeOptionsHeader);
+ //Laptop Fit Filters
+ const laptopFitOptions = document.createElement("div");
+ const laptopFitOptionsHeader = document.createElement("h3");
+ laptopFitOptionsHeader.textContent = "Type";
+ laptopFitOptions.appendChild(laptopFitOptionsHeader);
+
+ //Feature Filters
+ const featureOptions = document.createElement("div");
+ const featureOptionsHeader = document.createElement("h3");
+ featureOptionsHeader.textContent = "Features";
+ featureOptions.appendChild(laptopFitOptionsHeader);
  
 
  //load the character filter buttons
- filters.filters.characters.forEach(filter => {
+ filters.filters.cabinuse.forEach(filter => {
   
   const filterButton = document.createElement("button");
     filterButton.className = "filter-btn";
@@ -101,16 +107,14 @@ function loadFilters()
      characterFilters = Array.from(document.querySelectorAll('.filter-btn.active'))
         .map(btn => btn.dataset.label);
 
-    //Removed any filter calls to use the apply button
-    //filterResults(characterFilters, "characters");
-    // filterByCharacter(); 
+    
    });  
   //Add character button to the character filters.
-  characterOptions.appendChild(filterButton);  
+  cabinUseOptions.appendChild(filterButton);  
  });
 
  //load the type filter buttons
- filters.filters.type.forEach(filter => {
+ filters.filters.laptopfit.forEach(filter => {
   
   const filterButton = document.createElement("button");
     filterButton.className = "filter-btn";
@@ -126,7 +130,7 @@ function loadFilters()
     
    });  
   //Add character button to the character filters.
-  typeOptions.appendChild(filterButton);  
+  laptopFitOptions.appendChild(filterButton);  
  });
 
  //Load the TB ratings buttons
@@ -147,10 +151,32 @@ function loadFilters()
   //Add character button to the character filters.
   tbRatings.appendChild(filterButton);  
  });
+
+ //load the character filter buttons
+ filters.filters.features.forEach(filter => {
+  
+  const filterButton = document.createElement("button");
+    filterButton.className = "filter-btn";
+    filterButton.setAttribute("data-label", filter.id);
+    filterButton.innerHTML = `${filter.label}`;
+
+   //Make the button do something when clicked
+  filterButton.addEventListener("click", () => {
+      filterButton.classList.toggle("active");
+    
+     characterFilters = Array.from(document.querySelectorAll('.filter-btn.active'))
+        .map(btn => btn.dataset.label);
+
+    
+   });  
+  //Add character button to the character filters.
+  featureOptions.appendChild(filterButton);  
+ });
  
  filterTab.appendChild(characterOptions);
  filterTab.appendChild(typeOptions);
  filterTab.appendChild(tbRatings);
+ filterTab.appendChild(featureOptions);
  // filterTab.appendChild(materialFilters);
 
  
@@ -167,36 +193,15 @@ function showFilters()
    document.getElementById("applyButton").hidden = false;
    document.getElementById("clearButton").hidden = false;
    document.getElementById("hideFilters").hidden = false;
-  /* const filterTab = document.getElementById("filters");
-   filterTab.style.display = "block";
-
-   const filterButtonBar = document.getElementById("controls");
-  filterButtonBar.style.display = "block";
-  const applyButton = document.getElementById("applyButton");
-  applyButton.style.display = "block";
-  const clearButton = document.getElementById("clearButton");
-  clearButton.style.display = "block";
-  const hideButton = document.getElementById("hideFilters");
-  hideButton.style.display = "block";*/
+  
 }
 
 //Function to allow users to hide the filter options
 function hideFilters()
 {
    console.log("Hiding Filters");
-  /* const filterTab = document.getElementById("filters");
-   filterTab.style.display = "none";
-
-  const filterButtonBar = document.getElementById("controls");
-  filterButtonBar.style.display = "none";
-  const applyButton = document.getElementById("applyButton");
-  applyButton.style.display = "none";
-  const clearButton = document.getElementById("clearButton");
-  clearButton.style.display = "none";
-  const hideButton = document.getElementById("hideFilters");
-  hideButton.style.display = "none";*/
-  document.getElementById("filters").hidden = true;
-  document.getElementById("controls").hidden = true;
+   document.getElementById("filters").hidden = true;
+   document.getElementById("controls").hidden = true;
 }
 
 
