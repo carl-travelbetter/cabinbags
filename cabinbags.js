@@ -82,7 +82,7 @@ function loadFilters()
  //Laptop Fit Filters
  const laptopFitOptions = document.createElement("div");
  const laptopFitOptionsHeader = document.createElement("h3");
- laptopFitOptionsHeader.textContent = "Type";
+ laptopFitOptionsHeader.textContent = "Laptop Size";
  laptopFitOptions.appendChild(laptopFitOptionsHeader);
 
  //Feature Filters
