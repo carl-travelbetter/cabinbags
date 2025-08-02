@@ -1,35 +1,35 @@
 [
   {
-    "ASIN":"B07N8CFJYF",
+    "ASIN":"B0F24VSG1J",
+    "tbrating": "4",
+    "features": ["usbcharging","wheels"],
+    "cabinfit": "overhead",
+    "laptopsize": "17",
+    "notes": "Sleek design, robust case for a seasoned traveller"
+  },
+  {
+    "ASIN":"B0F5989PMJ",
     "tbrating": "4",
     "features": ["usbcharging","wheels"],
     "cabinfit": "underseat",
-    "laptopsize": "13",
-    "notes": "No notes for this case"
+    "laptopsize": "15",
+    "notes": "Well padded rucksack style cabin bag available in a huge range of colours"
   },
   {
-    "ASIN":"B07ZZDLKFJ",
+    "ASIN":"B0C7Q27VBF",
     "tbrating": "3",
     "features": ["usbcharging","wheels"],
-    "cabinfit": "underseat",
-    "laptopsize": "13",
-    "notes": "No notes for this case"
+    "cabinfit": "overhead",
+    "laptopsize": "15",
+    "notes": "Stylish design, available in many colours and includes a second laptop pocket for a 14 inch laptop or tablet."
   },
   {
-    "ASIN":"B08BHH8MDM",
-    "tbrating": "3",
+    "ASIN":"B0D3TPK7C4",
+    "tbrating": "4",
     "features": ["usbcharging","wheels"],
     "cabinfit": "underseat",
-    "laptopsize": "13",
-    "notes": "No notes for this case"
-  },
-  {
-    "ASIN":"B071HVDF8S",
-    "tbrating": "3",
-    "features": ["usbcharging","wheels"],
-    "cabinfit": "underseat",
-    "laptopsize": "13",
-    "notes": "No notes for this case"
+    "laptopsize": "15",
+    "notes": "Compact, canvas cabin bag. While not as robust as some other models it is much more affordable."
   },
   {
     "ASIN":"B0DG5X8RCT",
