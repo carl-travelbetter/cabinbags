@@ -12,27 +12,27 @@
     ],
     "laptopfit": [
       {
-        "id": "13inch",
+        "id": "13",
         "label": "Fits up to 13-inch Laptop"
       },
       {
-        "id": "15inch",
+        "id": "15",
         "label": "Fits up to 15-inch Laptop"
       },
       {
-        "id": "17inch",
+        "id": "17",
         "label": "Fits up to 17-inch Laptop"
       },
        {
-        "id": "19inch",
+        "id": "19",
         "label": "Fits up to 19-inch Laptop"
       },
       {
-        "id": "21inch",
+        "id": "21",
         "label": "Fits up to 21-inch Laptop"
       },
       {
-        "id": "24inch",
+        "id": "24",
         "label": "Fits up to 24-inch Laptop"
       }
     ],
