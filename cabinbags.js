@@ -230,7 +230,7 @@ function applyFilters()
    console.log("ratings length "+tbRatingsCases.length);
 
   //Now take the results of the ratings filter and apply the feature filters
-   const featureCases = tbRatingCases.filter(suitcase =>
+   const featureCases = tbRatingsCases.filter(suitcase =>
      featureFilters.length === 0 || featureFilters.some(match => suitcase.features.includes(match))
     );
  
