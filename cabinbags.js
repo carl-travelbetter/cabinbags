@@ -251,6 +251,7 @@ function applyFilters()
    else
    {
      loadFilteredResults();
+     hideFilters();
    }
     
 }
