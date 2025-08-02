@@ -209,28 +209,33 @@ function applyFilters()
   //Create a list each time to then filter on if the filter options have been selected
   console.log("Additional Info length "+additionalInfo.length);
  
-  const characterCases = additionalInfo.filter(suitcase =>
-       characterFilters.length === 0 || characterFilters.some(match => suitcase.characters.includes(match))
+  const cabinUseCases = additionalInfo.filter(suitcase =>
+       cabinUseFilters.length === 0 || cabinUseFilters.some(match => suitcase.cabinuse.includes(match))
    );
 
   console.log("Character Cases Length "+characterCases.length);
 
    //Now take the results of the character cases filter and apply the type filters
-   const typeCases = characterCases.filter(suitcase =>
-      typeFilters.length === 0 || typeFilters.some(match => suitcase.casetype.includes(match))
+   const laptopFitCases = cabinUseCases.filter(suitcase =>
+      laptopFitFilters.length === 0 || laptopFitFilters.some(match => suitcase.laptopfit.includes(match))
     );
 
    console.log("Type Cases Length "+typeCases.length);
 
    //Now take the results of the type filter and apply the tb ratings filters
-   const tbRatingsCases = typeCases.filter(suitcase =>
+   const tbRatingsCases = laptopFitCases.filter(suitcase =>
      ratingsFilters.length === 0 || ratingsFilters.some(match => suitcase.tbrating.includes(match))
     );
-
+ 
    console.log("TB Ratings Cases Length "+typeCases.length);
+
+  //Now take the results of the ratings filter and apply the feature filters
+   const featureCases = tbRatingCases.filter(suitcase =>
+     featureFilters.length === 0 || featureFilters.some(match => suitcase.features.includes(match))
+    );
  
    //Update the global filtered list
-   filteredAdditionalInfo = tbRatingsCases;
+   filteredAdditionalInfo = featureCases;
    console.log("Filtered Additional Info Length "+filteredAdditionalInfo.length);
 
    if (filteredAdditionalInfo.length === 0)
