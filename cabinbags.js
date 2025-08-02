@@ -4,6 +4,7 @@ let cabinUseFilters = [];
 let laptopFitFilters = [];
 let featureFilters = [];
 let ratingsFilters = [];
+let weightFilters = [];
 
 //Filtered List
 let filteredResults = [];
@@ -85,6 +86,12 @@ function loadFilters()
  laptopFitOptionsHeader.textContent = "Laptop Size";
  laptopFitOptions.appendChild(laptopFitOptionsHeader);
 
+ //Bag Weight Filters
+ const weightOptions = document.createElement("div");
+ const weightOptionsHeader = document.createElement("h3");
+ weightOptionsHeader.textContent = "Bag Weight";
+ weightOptions.appendChild(weightOptionsHeader);
+ 
  //Feature Filters
  const featureOptions = document.createElement("div");
  const featureOptionsHeader = document.createElement("h3");
@@ -152,7 +159,7 @@ function loadFilters()
   tbRatings.appendChild(filterButton);  
  });
 
- //load the character filter buttons
+ //load the feature filter buttons
  filters.filters.features.forEach(filter => {
   
   const filterButton = document.createElement("button");
@@ -172,10 +179,32 @@ function loadFilters()
   //Add character button to the character filters.
   featureOptions.appendChild(filterButton);  
  });
+
+ //load the character filter buttons
+ filters.filters.weight.forEach(filter => {
+  
+  const filterButton = document.createElement("button");
+    filterButton.className = "filter-btn";
+    filterButton.setAttribute("data-label", filter.id);
+    filterButton.innerHTML = `${filter.label}`;
+
+   //Make the button do something when clicked
+  filterButton.addEventListener("click", () => {
+      filterButton.classList.toggle("active");
+    
+     weightFilters = Array.from(document.querySelectorAll('.filter-btn.active'))
+        .map(btn => btn.dataset.label);
+
+    
+   });  
+  //Add character button to the character filters.
+  weightOptions.appendChild(filterButton);  
+ });
  
  filterTab.appendChild(cabinUseOptions);
  filterTab.appendChild(laptopFitOptions);
  filterTab.appendChild(featureOptions);
+ filterTab.appendChild(weightOptions);
  filterTab.appendChild(tbRatings);
  
 } //End of Function Load Filters
