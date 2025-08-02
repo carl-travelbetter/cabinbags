@@ -341,6 +341,7 @@ function clearFilters()
         ratingsFilters = [];
         filteredAdditionalInfo = additionalInfo;
         loadFilteredResults();
+        hideFilters();
 }
 
 //Return the top three results as selected by Travelbetter
