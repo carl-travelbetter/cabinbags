@@ -93,7 +93,7 @@ function loadFilters()
  
 
  //load the character filter buttons
- filters.filters.cabinuse.forEach(filter => {
+ filters.filters.cabinfit.forEach(filter => {
   
   const filterButton = document.createElement("button");
     filterButton.className = "filter-btn";
