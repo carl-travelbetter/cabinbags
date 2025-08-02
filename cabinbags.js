@@ -217,7 +217,7 @@ function applyFilters()
 
    //Now take the results of the character cases filter and apply the type filters
    const laptopFitCases = cabinUseCases.filter(suitcase =>
-      laptopFitFilters.length === 0 || laptopFitFilters.some(match => suitcase.laptopfit.includes(match))
+      laptopFitFilters.length === 0 || laptopFitFilters.some(match => suitcase.laptopsize.includes(match))
     );
 
    console.log("lpatop fit length "+laptopFitCases.length);
