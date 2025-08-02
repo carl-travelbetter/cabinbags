@@ -24,17 +24,17 @@ let topThreeResults = [];
 
 //Full set of Amazon results for the items
 let itemResults = [];
-  fetch('disneycases.json')
+  fetch('cabinbags.json')
   .then(response => response.json())
   .then(data => {
     itemResults = data;
-    console.log("Disney Suitcase Loaded:", itemResults);
+    console.log("Full List of Cabin Bags Loaded:", itemResults);
   })
   .catch(error => console.error("Error loading item data:", error));
 
 //Additional, TB added information for each suitcase
 let additionalInfo = [];
- fetch('gearextras.json')
+ fetch('extrainfo.json')
   .then(response => response.json())
   .then(data => {
     additionalInfo = data;
