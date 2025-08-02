@@ -41,6 +41,20 @@
         "id": "expandable",
         "label": "Expandable"
       }
+    ],
+    "tbrating": [
+      {
+        "id": "3",
+        "label": "3/5"
+      }
+      {
+        "id": "4",
+        "label": "4/5"
+      },
+      {
+        "id": "5",
+        "label": "5/5"
+      }
     ]
   }
 }
