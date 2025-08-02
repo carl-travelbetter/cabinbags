@@ -210,7 +210,7 @@ function applyFilters()
   console.log("Additional Info length "+additionalInfo.length);
  
   const cabinUseCases = additionalInfo.filter(suitcase =>
-       cabinUseFilters.length === 0 || cabinUseFilters.some(match => suitcase.cabinuse.includes(match))
+       cabinUseFilters.length === 0 || cabinUseFilters.some(match => suitcase.cabinfit.includes(match))
    );
 
   console.log("cabin use case length "+cabinUseCases.length);
