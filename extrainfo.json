@@ -4,7 +4,7 @@
     "tbrating": "4",
     "features": ["usbcharging","wheels"],
     "cabinfit": "underseat",
-    "laptopsize": "13"
+    "laptopsize": "13",
     "notes": "No notes for this case"
   },
   {
@@ -12,7 +12,7 @@
     "tbrating": "3",
     "features": ["usbcharging","wheels"],
     "cabinfit": "underseat",
-    "laptopsize": "13"
+    "laptopsize": "13",
     "notes": "No notes for this case"
   },
   {
@@ -20,7 +20,7 @@
     "tbrating": "3",
     "features": ["usbcharging","wheels"],
     "cabinfit": "underseat",
-    "laptopsize": "13"
+    "laptopsize": "13",
     "notes": "No notes for this case"
   },
   {
@@ -28,7 +28,7 @@
     "tbrating": "3",
     "features": ["usbcharging","wheels"],
     "cabinfit": "underseat",
-    "laptopsize": "13"
+    "laptopsize": "13",
     "notes": "No notes for this case"
   },
   {
@@ -36,7 +36,7 @@
     "tbrating": "3",
     "features": ["usbcharging","wheels"],
     "cabinfit": "underseat",
-    "laptopsize": "13"
+    "laptopsize": "13",
     "notes": "No notes for this case"
   }
 ]
