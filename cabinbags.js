@@ -213,21 +213,21 @@ function applyFilters()
        cabinUseFilters.length === 0 || cabinUseFilters.some(match => suitcase.cabinuse.includes(match))
    );
 
-  console.log("Character Cases Length "+characterCases.length);
+  console.log("cabin use case length "+cabinUseCases.length);
 
    //Now take the results of the character cases filter and apply the type filters
    const laptopFitCases = cabinUseCases.filter(suitcase =>
       laptopFitFilters.length === 0 || laptopFitFilters.some(match => suitcase.laptopfit.includes(match))
     );
 
-   console.log("Type Cases Length "+typeCases.length);
+   console.log("lpatop fit length "+laptopFitCases.length);
 
    //Now take the results of the type filter and apply the tb ratings filters
    const tbRatingsCases = laptopFitCases.filter(suitcase =>
      ratingsFilters.length === 0 || ratingsFilters.some(match => suitcase.tbrating.includes(match))
     );
  
-   console.log("TB Ratings Cases Length "+typeCases.length);
+   console.log("ratings length "+tbRatingsCases.length);
 
   //Now take the results of the ratings filter and apply the feature filters
    const featureCases = tbRatingCases.filter(suitcase =>
