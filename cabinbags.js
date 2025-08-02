@@ -355,6 +355,7 @@ function loadFilteredResults()
      results.appendChild(gearCard);
    });
   hideFilters();
+  scrollToResults();
 } //End of apply filters function
 
 //Clear all filters and reload all results
@@ -432,8 +433,19 @@ function loadTopThreeResults()
      
      results.appendChild(gearCard);
    });
- 
+  scrollToResults();
+} //End of load top three choices
+
+function scrollToResults() {
+    const resultsContainer = document.getElementById("results");
+    if (resultsContainer) {
+        resultsContainer.scrollIntoView({
+            behavior: "smooth", // smooth scrolling
+            block: "start"      // align to top
+        });
+    }
 }
+
 
 //Return all results in the main items list (show all)
 function getGear()
