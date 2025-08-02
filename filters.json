@@ -52,6 +52,14 @@
       {
         "id": "expandable",
         "label": "Expandable"
+      },
+      {
+        "id": "handles",
+        "label": "Handles"
+      },
+      {
+        "id": "tsalocks",
+        "label": "TSA-approved locks"
       }
     ],
     "weight": [
