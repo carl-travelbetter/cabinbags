@@ -349,14 +349,20 @@ function loadFilteredResults()
          gearCard.appendChild(bagFeatureTitle);
          //loop through and add features to results
          const bagFeatures = entry.features;
-         bagFeatures.forEach(feat => {
+         bagFeatures.forEach(id => {
            
                  const featureItem = document.createElement("p");
-                 featureItem.textContent = feat;
+                 featureItem.textContent = id;
                  gearCard.appendChild(featureItem);
          
            
          });
+ 
+         //Test working through the filters
+         filters.features.forEach(feat => {
+          console.log("Feature "+feat.label);
+         });
+        
          const notesHeader = document.createElement("h3");
          notesHeader.textContent = "Additional notes:";
          gearCard.appendChild(notesHeader);
