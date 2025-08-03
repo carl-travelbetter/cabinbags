@@ -2,19 +2,19 @@
   {
     "ASIN":"B0F24VSG1J",
     "tbrating": "4",
-    "features": ["usbcharging","wheels"],
+    "features": ["usbcharging","spinner", "tsalock"],
     "cabinfit": "overhead",
     "laptopsize": "17",
-    "weight": "2",
-    "notes": "Sleek design, robust case for a seasoned traveller"
+    "weight": "3.5",
+    "notes": "Robust hardshell cabin bag with plenty of room and a nice sleek design."
   },
   {
     "ASIN":"B0F5989PMJ",
     "tbrating": "4",
-    "features": ["usbcharging","wheels"],
-    "cabinfit": "underseat",
+    "features": ["usbcharging"],
+    "cabinfit": "overhead",
     "laptopsize": "15",
-    "weight": "2",
+    "weight": "1",
     "notes": "Well padded rucksack style cabin bag available in a huge range of colours"
   },
   {
