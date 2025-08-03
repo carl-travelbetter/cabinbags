@@ -348,7 +348,7 @@ function loadFilteredResults()
          bagFeatureTitle.textContent() = "Features:";
          gearCard.appendChild(bagFeatureTitle);
          //loop through and add features to results
-         const bagFeatures[] = entry.features;
+         const bagFeatures = entry.features;
          bagFeatures.forEach(feat => {
            const featureItem = document.createElement("p");
            featureItem.textContent = feat;
