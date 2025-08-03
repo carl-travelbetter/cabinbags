@@ -345,7 +345,7 @@ function loadFilteredResults()
          weight.textContent = "Weight: "+entry.weight+"kg";
          gearCard.appendChild(weight);
          const bagFeatureTitle = document.createElement("h2");
-         bagFeatureTitle.textContent() = "Features:";
+         bagFeatureTitle.textContent = "Features:";
          gearCard.appendChild(bagFeatureTitle);
          //loop through and add features to results
          const bagFeatures = entry.features;
