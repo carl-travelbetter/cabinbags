@@ -20,10 +20,10 @@
   {
     "ASIN":"B0C7Q27VBF",
     "tbrating": "3",
-    "features": ["usbcharging","spinner"],
+    "features": ["spinner", "tsalocks", "handle"],
     "cabinfit": "overhead",
     "laptopsize": "15",
-    "weight": "2",
+    "weight": "3",
     "notes": "Stylish design, available in many colours and includes a second laptop pocket for a 14 inch laptop or tablet."
   },
   {
