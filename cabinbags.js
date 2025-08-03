@@ -350,11 +350,19 @@ function loadFilteredResults()
          //loop through and add features to results
          const bagFeatures = entry.features;
          bagFeatures.forEach(feat => {
-           const featureItem = document.createElement("p");
-           featureItem.textContent = feat;
-           gearCard.appendChild(featureItem);
+           featureFilters.features.forEach (featUp => {
+              if (featUp === feat)
+              {
+                 const featureItem = document.createElement("p");
+                 featureItem.textContent = featUp.label;
+                 gearCard.appendChild(featureItem);
+              }
+           });
+           
          });
-        
+         const notesHeader = document.createElement("h3");
+         notesHeader.textContent = "Additional notes:";
+         gearCard.appendChild(notesHeader);
          const notes = document.createElement("p");
          notes.className = "product-info";
          notes.textContent = entry.notes;
