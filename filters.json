@@ -46,8 +46,8 @@
         "label": "4 Spinner Wheels"
       },
       {
-        "id": "quietwheels",
-        "label": "Quiet Wheels"
+        "id": "wheels",
+        "label": "Wheels"
       },
       {
         "id": "expandable",
@@ -64,8 +64,24 @@
     ],
     "weight": [
       {
+        "id": "0.5",
+        "label": "0.5kg"
+      }, 
+      {
+        "id": "1",
+        "label": "1kg"
+      },
+      {
+        "id": "2.5",
+        "label": "2.5kg"
+      },
+       {
+        "id": "4",
+        "label": "4kg"
+      },
+      {
         "id": "5",
-        "label": "5kg or lower"
+        "label": "5kg"
       },
       {
         "id": "6",
@@ -74,18 +90,6 @@
       {
         "id": "7",
         "label": "7kg"
-      },
-      {
-        "id": "8",
-        "label": "8kg"
-      },
-      {
-        "id": "9",
-        "label": "9kg"
-      },
-      {
-        "id": "10",
-        "label": "10kg or heavier"
       }
     ],
     "tbrating": [
