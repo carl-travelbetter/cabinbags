@@ -29,7 +29,7 @@
   {
     "ASIN":"B0D3TPK7C4",
     "tbrating": "4",
-    "features": ["usbcharging","spinner"],
+    "features": ["spinner", "exapandable", "handle"],
     "cabinfit": "underseat",
     "laptopsize": "15",
     "weight": "2",
