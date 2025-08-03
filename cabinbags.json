@@ -411,6 +411,213 @@
       }
      ]
     }
+   },
+   {
+    "ASIN": "B0D9BN6FZG",
+    "DetailPageURL": "https://www.amazon.co.uk/dp/B0D9BN6FZG?tag=travelbette0d-21&linkCode=ogi&th=1&psc=1",
+    "Images": {
+     "Primary": {
+      "Large": {
+       "Height": 500,
+       "URL": "https://m.media-amazon.com/images/I/413gvG9N-tL._SL500_.jpg",
+       "Width": 500
+      }
+     }
+    },
+    "ItemInfo": {
+     "ProductInfo": {
+      "Color": {
+       "DisplayValue": "Black",
+       "Label": "Color",
+       "Locale": "en_GB"
+      },
+      "ItemDimensions": {
+       "Weight": {
+        "DisplayValue": 8.598028218,
+        "Label": "Weight",
+        "Locale": "en_GB",
+        "Unit": "pounds"
+       }
+      },
+      "Size": {
+       "DisplayValue": "20\"",
+       "Label": "Size",
+       "Locale": "en_GB"
+      },
+      "UnitCount": {
+       "DisplayValue": 1,
+       "Label": "NumberOfItems",
+       "Locale": "en_US"
+      }
+     }
+    },
+    "Offers": {
+     "Listings": [
+      {
+       "Id": "mQmiAaTAdBzk2CUo7E9qbmvOBq63OmfJbYVXgknR0Bip5pkL7MZblkRjwSjMfuBnx%2Ftn6qZSYKM4%2FKeE5dzDCL5SepzN2loaYtRkryj5p7wGB1MiGSik3q%2Br0w%2BNkEq53sqJuKYM%2FQxlpzbrrH6OLkKI3yHVwi%2Fh5vRgfVEBufSLBLgUdGqEUGvj%2FMzSKbcd",
+       "Price": {
+        "Amount": 68.98,
+        "Currency": "GBP",
+        "DisplayAmount": "£68.98"
+       },
+       "ViolatesMAP": false
+      }
+     ]
+    }
+   },
+   {
+    "ASIN": "B083PZ7M77",
+    "DetailPageURL": "https://www.amazon.co.uk/dp/B083PZ7M77?tag=travelbette0d-21&linkCode=ogi&th=1&psc=1",
+    "Images": {
+     "Primary": {
+      "Large": {
+       "Height": 500,
+       "URL": "https://m.media-amazon.com/images/I/41ZlgKyc89L._SL500_.jpg",
+       "Width": 500
+      }
+     }
+    },
+    "ItemInfo": {
+     "ProductInfo": {
+      "Color": {
+       "DisplayValue": "Black",
+       "Label": "Color",
+       "Locale": "en_GB"
+      },
+      "ItemDimensions": {
+       "Height": {
+        "DisplayValue": 21.79921257619,
+        "Label": "Height",
+        "Locale": "en_GB",
+        "Unit": "inches"
+       },
+       "Length": {
+        "DisplayValue": 14.49999998521,
+        "Label": "Length",
+        "Locale": "en_GB",
+        "Unit": "inches"
+       },
+       "Weight": {
+        "DisplayValue": 9,
+        "Label": "Weight",
+        "Locale": "en_GB",
+        "Unit": "pounds"
+       },
+       "Width": {
+        "DisplayValue": 9.79921258843,
+        "Label": "Width",
+        "Locale": "en_GB",
+        "Unit": "inches"
+       }
+      },
+      "Size": {
+       "DisplayValue": "37*25*55.5CM(Expandable)",
+       "Label": "Size",
+       "Locale": "en_GB"
+      },
+      "UnitCount": {
+       "DisplayValue": 1,
+       "Label": "NumberOfItems",
+       "Locale": "en_US"
+      }
+     }
+    },
+    "Offers": {
+     "Listings": [
+      {
+       "Id": "mQmiAaTAdBzk2CUo7E9qblYBWT6m5pwqIO2UbHUt%2FZYrRB7Pxp0PERprob8TwSOvamB6xGnuyb16EmgAI0Gs2NdTvGRkY3Ckltw4kKI9azjHZHPGWglq%2B6q9KF7DfkZd4Y7kjAA2LNaq%2Fd2HxFKt6TWbn%2FGealR51Drg5NhIHBzqxD5W8N3o0UWnb7qdxvgh",
+       "Price": {
+        "Amount": 111.99,
+        "Currency": "GBP",
+        "DisplayAmount": "£111.99",
+        "Savings": {
+         "Amount": 28,
+         "Currency": "GBP",
+         "DisplayAmount": "£28.00 (20%)",
+         "Percentage": 20
+        }
+       },
+       "ViolatesMAP": false
+      }
+     ]
+    }
+   },
+   {
+    "ASIN": "B08PZ787ZJ",
+    "DetailPageURL": "https://www.amazon.co.uk/dp/B08PZ787ZJ?tag=travelbette0d-21&linkCode=ogi&th=1&psc=1",
+    "Images": {
+     "Primary": {
+      "Large": {
+       "Height": 500,
+       "URL": "https://m.media-amazon.com/images/I/31aqOUSX7NL._SL500_.jpg",
+       "Width": 500
+      }
+     }
+    },
+    "ItemInfo": {
+     "ProductInfo": {
+      "Color": {
+       "DisplayValue": "Black",
+       "Label": "Color",
+       "Locale": "en_GB"
+      },
+      "ItemDimensions": {
+       "Height": {
+        "DisplayValue": 18.897637776,
+        "Label": "Height",
+        "Locale": "en_GB",
+        "Unit": "Inches"
+       },
+       "Length": {
+        "DisplayValue": 12.7952755775,
+        "Label": "Length",
+        "Locale": "en_GB",
+        "Unit": "Inches"
+       },
+       "Weight": {
+        "DisplayValue": 5.291094288,
+        "Label": "Weight",
+        "Locale": "en_GB",
+        "Unit": "Pounds"
+       },
+       "Width": {
+        "DisplayValue": 7.2834645595,
+        "Label": "Width",
+        "Locale": "en_GB",
+        "Unit": "Inches"
+       }
+      },
+      "Size": {
+       "DisplayValue": "Laptop backpack with wheels 17.3\" (48 cm - 25.5 L)",
+       "Label": "Size",
+       "Locale": "en_GB"
+      },
+      "UnitCount": {
+       "DisplayValue": 1,
+       "Label": "NumberOfItems",
+       "Locale": "en_US"
+      }
+     }
+    },
+    "Offers": {
+     "Listings": [
+      {
+       "Id": "mQmiAaTAdBzk2CUo7E9qbozy3QJ8ASQoGNZFLHoColdnUHgulpxCPTuvE0fUYm3SQBcKG2mJ8DvkXFlTjsr4siYyCvgX5eKZApE6m99I0qupkM4cFKQH4ugQ%2FOldc19L",
+       "Price": {
+        "Amount": 103.2,
+        "Currency": "GBP",
+        "DisplayAmount": "£103.20",
+        "Savings": {
+         "Amount": 25.8,
+         "Currency": "GBP",
+         "DisplayAmount": "£25.80 (20%)",
+         "Percentage": 20
+        }
+       },
+       "ViolatesMAP": false
+      }
+     ]
+    }
    }
   ]
  }
