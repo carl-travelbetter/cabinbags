@@ -340,6 +340,10 @@ function loadFilteredResults()
          infoHeader.textContent = "Additional Information";
          infoHeader.className = "product-info";
          gearCard.appendChild(infoHeader);
+         const weight = document.createElement("p");
+         weight.className = "product-info";
+         weight.textContent = "Weight: "+entry.weight+"kg";
+         gearCard.appendChild(weight);
          const notes = document.createElement("p");
          notes.className = "product-info";
          notes.textContent = entry.notes;
