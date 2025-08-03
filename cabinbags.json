@@ -618,6 +618,143 @@
       }
      ]
     }
+   },
+   {
+    "ASIN": "B0DSSG4XYW",
+    "DetailPageURL": "https://www.amazon.co.uk/dp/B0DSSG4XYW?tag=travelbette0d-21&linkCode=ogi&th=1&psc=1",
+    "Images": {
+     "Primary": {
+      "Large": {
+       "Height": 500,
+       "URL": "https://m.media-amazon.com/images/I/41Cvcjz99vL._SL500_.jpg",
+       "Width": 400
+      }
+     }
+    },
+    "ItemInfo": {
+     "ProductInfo": {
+      "Color": {
+       "DisplayValue": "Black",
+       "Label": "Color",
+       "Locale": "en_GB"
+      },
+      "ItemDimensions": {
+       "Height": {
+        "DisplayValue": 15.74803148,
+        "Label": "Height",
+        "Locale": "en_GB",
+        "Unit": "inches"
+       },
+       "Length": {
+        "DisplayValue": 7.87401574,
+        "Label": "Length",
+        "Locale": "en_GB",
+        "Unit": "inches"
+       },
+       "Weight": {
+        "DisplayValue": 1.10231131,
+        "Label": "Weight",
+        "Locale": "en_GB",
+        "Unit": "pounds"
+       },
+       "Width": {
+        "DisplayValue": 9.842519675,
+        "Label": "Width",
+        "Locale": "en_GB",
+        "Unit": "inches"
+       }
+      },
+      "Size": {
+       "DisplayValue": "40x20x25cm",
+       "Label": "Size",
+       "Locale": "en_GB"
+      }
+     }
+    },
+    "Offers": {
+     "Listings": [
+      {
+       "Id": "GnojM%2F8wSdhM09uN1Xy%2F1gmMu3183hQYUcNz%2BnavLHUy9TV4GbKLm2%2Fcc1mhUa5NU8QFwBnwnmg6QMnnB3lEHFG0MyMrQoUihpqDGSB0CtisQvMMTIlRnFksrIbu3%2F0wFY%2B9%2F3JFmqSouwsLMQeJSXslxBSCcAgayjDmHN%2BYkCnU2XTalOMmaeurQjoe6FXv",
+       "Price": {
+        "Amount": 22.94,
+        "Currency": "GBP",
+        "DisplayAmount": "£22.94",
+        "Savings": {
+         "Amount": 6.05,
+         "Currency": "GBP",
+         "DisplayAmount": "£6.05 (21%)",
+         "Percentage": 21
+        }
+       },
+       "ViolatesMAP": false
+      }
+     ]
+    }
+   },
+   {
+    "ASIN": "B0F7LSWHW5",
+    "DetailPageURL": "https://www.amazon.co.uk/dp/B0F7LSWHW5?tag=travelbette0d-21&linkCode=ogi&th=1&psc=1",
+    "Images": {
+     "Primary": {
+      "Large": {
+       "Height": 500,
+       "URL": "https://m.media-amazon.com/images/I/41mWq9tg-vL._SL500_.jpg",
+       "Width": 500
+      }
+     }
+    },
+    "ItemInfo": {
+     "ProductInfo": {
+      "Color": {
+       "DisplayValue": "Black",
+       "Label": "Color",
+       "Locale": "en_GB"
+      },
+      "ItemDimensions": {
+       "Height": {
+        "DisplayValue": 15.74803148,
+        "Label": "Height",
+        "Locale": "en_GB",
+        "Unit": "inches"
+       },
+       "Length": {
+        "DisplayValue": 7.87401574,
+        "Label": "Length",
+        "Locale": "en_GB",
+        "Unit": "inches"
+       },
+       "Width": {
+        "DisplayValue": 9.842519675,
+        "Label": "Width",
+        "Locale": "en_GB",
+        "Unit": "inches"
+       }
+      },
+      "Size": {
+       "DisplayValue": "40x20x25",
+       "Label": "Size",
+       "Locale": "en_GB"
+      },
+      "UnitCount": {
+       "DisplayValue": 1,
+       "Label": "NumberOfItems",
+       "Locale": "en_US"
+      }
+     }
+    },
+    "Offers": {
+     "Listings": [
+      {
+       "Id": "GnojM%2F8wSdhM09uN1Xy%2F1jMqzDfPRddohkRjxQ2TSKDxK9sKS6csvPL6YgiNK3j7bWzI1l4hAKmHTTXaVAznfBGqPiSkoCX02oTZr0tVEBU1PkSOI3VIddT8HibBLHLkQ%2FqGMs3EbsnkEetFChUIe8LAaSVocrLObUsYJ0Hza3sdAYtxiHLUV4UzelTIDhqI",
+       "Price": {
+        "Amount": 21.99,
+        "Currency": "GBP",
+        "DisplayAmount": "£21.99"
+       },
+       "ViolatesMAP": false
+      }
+     ]
+    }
    }
   ]
  }
