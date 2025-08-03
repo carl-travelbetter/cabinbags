@@ -5,6 +5,7 @@
     "features": ["usbcharging","wheels"],
     "cabinfit": "overhead",
     "laptopsize": "17",
+    "weight": "2",
     "notes": "Sleek design, robust case for a seasoned traveller"
   },
   {
@@ -13,6 +14,7 @@
     "features": ["usbcharging","wheels"],
     "cabinfit": "underseat",
     "laptopsize": "15",
+    "weight": "2",
     "notes": "Well padded rucksack style cabin bag available in a huge range of colours"
   },
   {
