@@ -60,6 +60,10 @@
       {
         "id": "tsalocks",
         "label": "TSA-approved locks"
+      },
+      {
+        "id": "ryanair",
+        "label": "Ryanair compatible underseat cabin bag"
       }
     ],
     "weight": [
