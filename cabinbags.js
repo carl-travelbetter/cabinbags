@@ -350,18 +350,21 @@ function loadFilteredResults()
          //loop through and add features to results
          const bagFeatures = entry.features;
          bagFeatures.forEach(id => {
-           
+           //Test working through the filters
+          filters.filters.features.forEach(feat => {
+          console.log("Feature "+feat.label);
+              if (id == feat.id)
+              {
                  const featureItem = document.createElement("p");
-                 featureItem.textContent = id;
+                 featureItem.textContent = feat.label;
                  gearCard.appendChild(featureItem);
-         
+              }
+           
+           });
            
          });
  
-         //Test working through the filters
-         filters.filters.features.forEach(feat => {
-          console.log("Feature "+feat.label);
-         });
+        
         
          const notesHeader = document.createElement("h3");
          notesHeader.textContent = "Additional notes:";
