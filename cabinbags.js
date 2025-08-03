@@ -350,14 +350,11 @@ function loadFilteredResults()
          //loop through and add features to results
          const bagFeatures = entry.features;
          bagFeatures.forEach(feat => {
-           featureFilters.features.forEach (featUp => {
-              if (featUp === feat)
-              {
+           
                  const featureItem = document.createElement("p");
-                 featureItem.textContent = featUp.label;
+                 featureItem.textContent = feat;
                  gearCard.appendChild(featureItem);
-              }
-           });
+         
            
          });
          const notesHeader = document.createElement("h3");
