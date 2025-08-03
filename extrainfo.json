@@ -18,17 +18,19 @@
   {
     "ASIN":"B0C7Q27VBF",
     "tbrating": "3",
-    "features": ["usbcharging","wheels"],
+    "features": ["usbcharging","spinner"],
     "cabinfit": "overhead",
     "laptopsize": "15",
+    "weight": "2";
     "notes": "Stylish design, available in many colours and includes a second laptop pocket for a 14 inch laptop or tablet."
   },
   {
     "ASIN":"B0D3TPK7C4",
     "tbrating": "4",
-    "features": ["usbcharging","wheels"],
+    "features": ["usbcharging","spinner"],
     "cabinfit": "underseat",
     "laptopsize": "15",
+    "weight": "2",
     "notes": "Compact, canvas cabin bag. While not as robust as some other models it is much more affordable."
   },
   {
@@ -37,6 +39,70 @@
     "features": ["usbcharging","wheels"],
     "cabinfit": "underseat",
     "laptopsize": "13",
+    "weight": "3",
     "notes": "No notes for this case"
+  },
+  {
+    "ASIN":"B0C6KMKGQ1",
+    "tbrating": "4",
+    "features": ["handle","wheels"],
+    "cabinfit": "underseat",
+    "laptopsize": "15",
+    "weight": "2.5",
+    "notes": "Highly durable rolling cabin bag, fits underseat on most airlines."
+  },
+  {
+    "ASIN":"B0DB6MP1F7",
+    "tbrating": "4",
+    "features": ["spinner","handle"],
+    "cabinfit": "overhead",
+    "laptopsize": "15",
+    "weight": "7",
+    "notes": "Unique tri-modular system allowing you to split the bag in three once on the plane to ensure it is all stored safely."
+  },
+  {
+    "ASIN":"B0D9BN6FZG",
+    "tbrating": "4",
+    "features": ["spinner","usbcharger", "tsalocks"],
+    "cabinfit": "overhead",
+    "laptopsize": "15",
+    "weight": "4",
+    "notes": "Excellent cabin bag with dual laptop compartments and a usb charging point. "
+  },
+   {
+    "ASIN":"B083PZ7M77",
+    "tbrating": "4",
+    "features": ["spinner", "tsalocks"],
+    "cabinfit": "overhead",
+    "laptopsize": "15",
+    "weight": "4",
+    "notes": "Reinforced corners for added protection. "
+  },
+  {
+    "ASIN":"B08PZ787ZJ",
+    "tbrating": "4",
+    "features": ["usbcharger", "wheels"],
+    "cabinfit": "overhead",
+    "laptopsize": "15",
+    "weight": "2.5",
+    "notes": "Elegant and robust cabin bag from Samsonite - Perfect for business and pleasure trips."
+  },
+  {
+    "ASIN":"B0DSSG4XYW",
+    "tbrating": "4",
+    "features": ["ryanair"],
+    "cabinfit": "overhead",
+    "laptopsize": "14",
+    "weight": "0.5",
+    "notes": "Stylish and practical cabin bag that will fit under the seat in a Ryanair flight."
+  },
+  {
+    "ASIN":"B0F7LSWHW5",
+    "tbrating": "4",
+    "features": ["ryanair", "usbcharger"],
+    "cabinfit": "overhead",
+    "laptopsize": "14",
+    "weight": "0.5",
+    "notes": "Excellent back pack style cabin bag that includes a useful side carry strap, fits under the seat on a Ryanair plane. If you can get by with a 14 inch laptop this is the perfect choice for a frequent flyer. "
   }
 ]
