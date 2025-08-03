@@ -344,6 +344,17 @@ function loadFilteredResults()
          weight.className = "product-info";
          weight.textContent = "Weight: "+entry.weight+"kg";
          gearCard.appendChild(weight);
+         const bagFeatureTitle = document.createElement("h2");
+         bagFeatureTitle.textContent() = "Features:";
+         gearCard.appendChild(bagFeatureTitle);
+         //loop through and add features to results
+         const bagFeatures[] = entry.features;
+         bagFeatures.forEach(feat => {
+           const featureItem = document.createElement("p");
+           featureItem.textContent = feat;
+           gearCard.appendChild(featureItem);
+         });
+        
          const notes = document.createElement("p");
          notes.className = "product-info";
          notes.textContent = entry.notes;
