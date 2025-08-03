@@ -359,7 +359,7 @@ function loadFilteredResults()
          });
  
          //Test working through the filters
-         filters.features.forEach(feat => {
+         filters.filters.features.forEach(feat => {
           console.log("Feature "+feat.label);
          });
         
