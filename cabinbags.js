@@ -538,7 +538,7 @@ function loadTopThreeResults()
 } //End of load top three choices
 
 function scrollToResults() {
-    const resultsContainer = document.getElementById("results");
+    const resultsContainer = document.getElementById("buttons");
     if (resultsContainer) {
         resultsContainer.scrollIntoView({
             behavior: "smooth", // smooth scrolling
