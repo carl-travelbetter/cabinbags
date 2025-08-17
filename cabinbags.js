@@ -369,15 +369,21 @@ function loadFilteredResults()
        {
          //console.log("***Match Found***");
          const infoHeader = document.createElement("h4");
-         infoHeader.textContent = "Cabin Bag Weight";
+         infoHeader.textContent = "Specifications";
          //infoHeader.className = "product-info";
          gearCard.appendChild(infoHeader);
          const weight = document.createElement("p");
          //weight.className = "product-info";
-         weight.textContent = entry.weight+"kg";
+         weight.textContent = "Weight: "+entry.weight+"kg";
          gearCard.appendChild(weight);
+         const laptopSize = document.createElement("p");
+         laptopSize.textContent = "Laptop Size - Up to: "+entry.laptopsize+" inches";
+         gearCard.appendChild(laptopSize);
+         const cabinFit = document.createElement("p");
+         cabinFit.textContent = "Cabin Fit: "+entry.cabinfit;
+         gearCard.appendChild(cabinFit);
          const bagFeatureTitle = document.createElement("h4");
-         bagFeatureTitle.textContent = "Cabin Bag Features:";
+         bagFeatureTitle.textContent = "More Features:";
          gearCard.appendChild(bagFeatureTitle);
          //loop through and add features to results
          const bagFeatures = entry.features;
