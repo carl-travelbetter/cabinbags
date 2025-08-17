@@ -315,21 +315,33 @@ function loadFilteredResults()
   //  asin.className = "product-info";
  //   asin.textContent = item.ASIN;
   //  gearCard.appendChild(asin);
-   
+
+    //Load image
     const itemImage = document.createElement("img");
     itemImage.className = "product-image"; 
-       itemImage.src = item.Images.Primary.Large.URL;
-       gearCard.appendChild(itemImage);
-    const buyItLink = document.createElement("a");
-     //buyItLink.className = "product-info";
-     buyItLink.href = item.DetailPageURL;
-     buyItLink.target = "_blank";
-     //buyItLink.textContent = "Buy It Now";
+    itemImage.src = item.Images.Primary.Large.URL;
+    gearCard.appendChild(itemImage);
+
+   //Create Product Title
+    const productTitle = document.createElement("h2");
+    productTitle.className = "product-image";
+    productTitle.textContent = item.ItemInfo.Title.DisplayValue;
+    gearCard.appendChild(producTitle);
+   
+   //Create Buy it link for button button
+    const buyItLink = document.createElement("a");   
+    buyItLink.href = item.DetailPageURL;
+    buyItLink.target = "_blank";
+
+     //Create the buy it button
      const buyItButton = document.createElement("button");
      buyItButton.className = "buyit-button";
-     buyItButton.textContent = "Buy It Now";
+     buyItButton.textContent = "Buy From Amazon UK";
+     //Append the Buy It Button to the Link
      buyItLink.appendChild(buyItButton);
+     //Add the Link to the gearCard
      gearCard.appendChild(buyItLink);
+   
      const price = document.createElement("p");
      price.className = "product-info";
      price.textContent = "Indicative Price* "+item.Offers.Listings[0].Price.DisplayAmount;
@@ -342,15 +354,15 @@ function loadFilteredResults()
        if (asinLookup == item.ASIN)
        {
          //console.log("***Match Found***");
-         const infoHeader = document.createElement("h2");
-         infoHeader.textContent = "Additional Information";
-         infoHeader.className = "product-info";
+         const infoHeader = document.createElement("h3");
+         infoHeader.textContent = "More Information";
+         //infoHeader.className = "product-info";
          gearCard.appendChild(infoHeader);
          const weight = document.createElement("p");
-         weight.className = "product-info";
+         //weight.className = "product-info";
          weight.textContent = "Weight: "+entry.weight+"kg";
          gearCard.appendChild(weight);
-         const bagFeatureTitle = document.createElement("h2");
+         const bagFeatureTitle = document.createElement("h4");
          bagFeatureTitle.textContent = "Features:";
          gearCard.appendChild(bagFeatureTitle);
          //loop through and add features to results
@@ -373,10 +385,10 @@ function loadFilteredResults()
         
         
          const notesHeader = document.createElement("h3");
-         notesHeader.textContent = "Additional notes:";
+         notesHeader.textContent = "Travelbetter Notes:";
          gearCard.appendChild(notesHeader);
          const notes = document.createElement("p");
-         notes.className = "product-info";
+         //notes.className = "product-info";
          notes.textContent = entry.notes;
          gearCard.appendChild(notes);
        }
