@@ -301,6 +301,7 @@ function loadFilteredResults()
   results.innerHTML = "";
 
   const resultsHeader = document.createElement("h2");
+  resultsHeader.className = "pageintro";
   resultsHeader.textContent = "Results";
   results.appendChild(resultsHeader);
   
@@ -429,7 +430,8 @@ function clearFilters()
 function loadTopThreeResults()
 {
   console.log("Load Top Three Results...");
-   results = document.getElementById("results");
+  resultsHeader.className = "pageintro";
+  results = document.getElementById("results");
   results.innerHTML = "";
 
    const resultsHeader = document.createElement("h2");
