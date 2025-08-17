@@ -84,7 +84,7 @@
     "ASIN":"B0DSSG4XYW",
     "tbrating": "4",
     "features": ["ryanair"],
-    "cabinfit": "overhead",
+    "cabinfit": "underseat",
     "laptopsize": "14",
     "weight": "0.5",
     "notes": "Stylish and practical cabin bag that will fit under the seat in a Ryanair flight."
@@ -93,7 +93,7 @@
     "ASIN":"B0F7LSWHW5",
     "tbrating": "4",
     "features": ["ryanair", "usbcharger"],
-    "cabinfit": "overhead",
+    "cabinfit": "underseat",
     "laptopsize": "14",
     "weight": "0.5",
     "notes": "Excellent back pack style cabin bag that includes a useful side carry strap, fits under the seat on a Ryanair plane. If you can get by with a 14 inch laptop this is the perfect choice for a frequent flyer. "
