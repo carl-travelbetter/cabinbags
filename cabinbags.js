@@ -326,7 +326,7 @@ function loadFilteredResults()
     const productTitle = document.createElement("h2");
     productTitle.className = "product-image";
     productTitle.textContent = item.ItemInfo.Title.DisplayValue;
-    gearCard.appendChild(producTitle);
+    gearCard.appendChild(productTitle);
    
    //Create Buy it link for button button
     const buyItLink = document.createElement("a");   
