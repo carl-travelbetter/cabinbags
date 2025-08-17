@@ -422,6 +422,7 @@ function clearFilters()
 }
 
 //Return the top three results as selected by Travelbetter
+//Uses the topthree.json file
 function loadTopThreeResults()
 {
   console.log("Load Top Three Results...");
@@ -430,23 +431,29 @@ function loadTopThreeResults()
 
   topThreeResults.ItemsResult.Items.forEach(item => {
     const gearCard = document.createElement("div");
-     gearCard.className = "gearCard";
-    const asin = document.createElement("p");
-    asin.className = "product-info";
-    asin.textContent = item.ASIN;
-    gearCard.appendChild(asin);
+    gearCard.className = "gearCard";
+
+    //Create Image Element and Load from Top Three Data
     const itemImage = document.createElement("img");
     itemImage.className = "product-image"; 
-       itemImage.src = item.Images.Primary.Large.URL;
-       gearCard.appendChild(itemImage);
+    itemImage.src = item.Images.Primary.Large.URL;
+    gearCard.appendChild(itemImage);
+
+    //Create Product Title
+    const productTitle = document.createElement("h2");
+    productTitle.className = "product-info";
+    productTitle.textContent = item.ItemInfo.Title.DisplayValue;
+    gearCard.appendChild(productTitle);
+   
+    //Create Buy It Link
     const buyItLink = document.createElement("a");
-     //buyItLink.className = "product-info";
+    
      buyItLink.href = item.DetailPageURL;
      buyItLink.target = "_blank";
-     //buyItLink.textContent = "Buy It Now";
+    
      const buyItButton = document.createElement("button");
      buyItButton.className = "buyit-button";
-     buyItButton.textContent = "Buy It Now";
+     buyItButton.textContent = "Buy From Amazon";
      buyItLink.appendChild(buyItButton);
      gearCard.appendChild(buyItLink);
      const price = document.createElement("p");
@@ -460,13 +467,41 @@ function loadTopThreeResults()
        
        if (asinLookup == item.ASIN)
        {
-         
-         const infoHeader = document.createElement("h2");
-         infoHeader.textContent = "Additional Information";
-         infoHeader.className = "product-info";
+         //console.log("***Match Found***");
+         const infoHeader = document.createElement("h4");
+         infoHeader.textContent = "Cabin Bag Weight";
+         //infoHeader.className = "product-info";
          gearCard.appendChild(infoHeader);
+         const weight = document.createElement("p");
+         //weight.className = "product-info";
+         weight.textContent = entry.weight+"kg";
+         gearCard.appendChild(weight);
+         const bagFeatureTitle = document.createElement("h4");
+         bagFeatureTitle.textContent = "Cabin Bag Features:";
+         gearCard.appendChild(bagFeatureTitle);
+         //loop through and add features to results
+         const bagFeatures = entry.features;
+         bagFeatures.forEach(id => {
+           //Test working through the filters
+          filters.filters.features.forEach(feat => {
+          console.log("Feature "+feat.label);
+              if (id == feat.id)
+              {
+                 const featureItem = document.createElement("p");
+                 featureItem.textContent = feat.label;
+                 gearCard.appendChild(featureItem);
+              }
+           
+           });
+           
+         });
+ 
+        
+        
+         const notesHeader = document.createElement("h4");
+         notesHeader.textContent = "Additional Information";
+         gearCard.appendChild(notesHeader);
          const notes = document.createElement("p");
-         notes.className = "product-info";
          notes.textContent = entry.notes;
          gearCard.appendChild(notes);
        }
