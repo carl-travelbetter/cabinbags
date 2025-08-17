@@ -324,7 +324,7 @@ function loadFilteredResults()
 
    //Create Product Title
     const productTitle = document.createElement("h2");
-    productTitle.className = "product-image";
+    productTitle.className = "product-info";
     productTitle.textContent = item.ItemInfo.Title.DisplayValue;
     gearCard.appendChild(productTitle);
    
