@@ -69,10 +69,11 @@ function loadFilters()
  filterTab.appendChild(filterTitle);
  
  //tb rating Filters
+ /*
  const tbRatings = document.createElement("div");
  const tbRatingsHeader = document.createElement("h3");
  tbRatingsHeader.textContent = "Travelbetter Rating";
- tbRatings.appendChild(tbRatingsHeader);
+ tbRatings.appendChild(tbRatingsHeader);*/
 
  //Cabin Use Filters
  const cabinUseOptions = document.createElement("div");
@@ -141,7 +142,7 @@ function loadFilters()
  });
 
  //Load the TB ratings buttons
- filters.filters.tbrating.forEach(filter => {
+/* filters.filters.tbrating.forEach(filter => {
     const filterButton = document.createElement("button");
     filterButton.className = "filter-btn";
     filterButton.setAttribute("data-label", filter.id);
@@ -157,7 +158,7 @@ function loadFilters()
    });  
   //Add tbrating button to the filters.
   tbRatings.appendChild(filterButton);  
- });
+ });*/
 
  //load the feature filter buttons
  filters.filters.features.forEach(filter => {
