@@ -311,10 +311,11 @@ function loadFilteredResults()
   filteredResults.forEach(item => {
     const gearCard = document.createElement("div");
      gearCard.className = "gearCard";
-    const asin = document.createElement("p");
-    asin.className = "product-info";
-    asin.textContent = item.ASIN;
-    gearCard.appendChild(asin);
+   // const asin = document.createElement("p");
+  //  asin.className = "product-info";
+ //   asin.textContent = item.ASIN;
+  //  gearCard.appendChild(asin);
+   
     const itemImage = document.createElement("img");
     itemImage.className = "product-image"; 
        itemImage.src = item.Images.Primary.Large.URL;
