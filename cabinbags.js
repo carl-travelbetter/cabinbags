@@ -262,9 +262,14 @@ function applyFilters()
    const featureCases = tbRatingsCases.filter(suitcase =>
      featureFilters.length === 0 || featureFilters.some(match => suitcase.features.includes(match))
     );
+
+  //Now take the results of the feature filter and apply the weight filters
+   const weightCases = featuresCases.filter(suitcase =>
+     weightFilters.length === 0 || weightFilters.some(match => suitcase.weight.includes(match))
+    );
  
    //Update the global filtered list
-   filteredAdditionalInfo = featureCases;
+   filteredAdditionalInfo = weightCases;
    console.log("Filtered Additional Info Length "+filteredAdditionalInfo.length);
 
    if (filteredAdditionalInfo.length === 0)
