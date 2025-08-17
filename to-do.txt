@@ -4,3 +4,4 @@ Make headings dynamic to view port so they don't look silly
 Complete Features Explanation List
 Fix spelling errror on bag guide
 Complete bag guide
+Reorder buttons, including hidding them, to give a better flow and support top and bottom control bars
