@@ -221,6 +221,14 @@ function showFilters()
    document.getElementById("applyButton").hidden = false;
    document.getElementById("clearButton").hidden = false;
    document.getElementById("hideFilters").hidden = false;
+
+   const filterContainer = document.getElementById("controls");
+    if (filterContainer) {
+        filterContainer.scrollIntoView({
+            behavior: "smooth", // smooth scrolling
+            block: "start"      // align to top
+        });
+    }
   
 }
 
