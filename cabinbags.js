@@ -433,11 +433,11 @@ function clearFilters()
 function loadTopThreeResults()
 {
   console.log("Load Top Three Results...");
-  resultsHeader.className = "pageintro";
   results = document.getElementById("results");
   results.innerHTML = "";
 
    const resultsHeader = document.createElement("h2");
+   resultsHeader.className = "pageintro";
    resultsHeader.textContent = "Top Three Cabin Bags";
    results.appendChild(resultsHeader);
  
