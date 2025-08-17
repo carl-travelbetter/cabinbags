@@ -384,8 +384,8 @@ function loadFilteredResults()
  
         
         
-         const notesHeader = document.createElement("h3");
-         notesHeader.textContent = "Additional Informtation";
+         const notesHeader = document.createElement("h4");
+         notesHeader.textContent = "Additional Information";
          gearCard.appendChild(notesHeader);
          const notes = document.createElement("p");
          notes.textContent = entry.notes;
