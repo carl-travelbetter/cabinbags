@@ -5,6 +5,7 @@ let laptopFitFilters = [];
 let featureFilters = [];
 let ratingsFilters = [];
 let weightFilters = [];
+let message = "";
 
 //Filtered List
 let filteredResults = [];
@@ -285,6 +286,7 @@ function applyFilters()
    }
    else
    {
+     message = "Filtered Results";
      loadFilteredResults();
      //hideFilters();
    }
@@ -302,7 +304,7 @@ function loadFilteredResults()
 
   const resultsHeader = document.createElement("h2");
   resultsHeader.className = "pageintro";
-  resultsHeader.textContent = "Results";
+  resultsHeader.textContent = message;
   results.appendChild(resultsHeader);
   
   //lookup a match in the main file and then create the card and append to the results
@@ -421,6 +423,7 @@ function clearFilters()
         typeFilters = [];
         ratingsFilters = [];
         filteredAdditionalInfo = additionalInfo;
+        message = "Top 11 Cabin Bags";
         loadFilteredResults();
         //hideFilters();
 }
@@ -435,7 +438,7 @@ function loadTopThreeResults()
   results.innerHTML = "";
 
    const resultsHeader = document.createElement("h2");
-   resultsHeader.textContent = "Top Three";
+   resultsHeader.textContent = "Top Three Cabin Bags";
    results.appendChild(resultsHeader);
  
   topThreeResults.ItemsResult.Items.forEach(item => {
