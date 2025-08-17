@@ -1,4 +1,6 @@
-Find and add B0DG5X8RCT to Cabinhabgs.json
-Improve results to have borders and spacing after text - find the good example affiliate site...was it stitch bags?
+Add features explanation link to filtered options
+Improve affiliate disclaimer colours
+Make headings dynamic to view port so they don't look silly
+Complete Features Explanation List
 Decide on further text - vs FAQ e.g. What is a cabin bag, what is a laptop bag etc.
 Line up text colour coding with the rest of travelbetter
