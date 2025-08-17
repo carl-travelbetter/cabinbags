@@ -10,6 +10,10 @@ h1, h2, h3, h4, h5 {
     margin-top: 0.75rem;
 }
 
+h1 {
+  font-size: 8vw;
+}
+
 .pageintro {
     text-align:center;
     margin-left: auto;
