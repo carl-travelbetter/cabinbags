@@ -206,7 +206,7 @@ function loadFilters()
  filterTab.appendChild(laptopFitOptions);
  filterTab.appendChild(featureOptions);
  filterTab.appendChild(weightOptions);
- filterTab.appendChild(tbRatings);
+ //filterTab.appendChild(tbRatings);
  
 } //End of Function Load Filters
 
