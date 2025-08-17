@@ -502,6 +502,8 @@ function getGear()
 
   results = document.getElementById("results");
   results.innerHTML = "";
+  clearFilters();
+ /*
   const itemData = document.createElement("p");
  
 
@@ -550,4 +552,6 @@ function getGear()
      
      results.appendChild(gearCard);
    });
+
+   */
 }
