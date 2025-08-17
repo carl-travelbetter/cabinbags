@@ -354,16 +354,16 @@ function loadFilteredResults()
        if (asinLookup == item.ASIN)
        {
          //console.log("***Match Found***");
-         const infoHeader = document.createElement("h3");
-         infoHeader.textContent = "More Information";
+         const infoHeader = document.createElement("h4");
+         infoHeader.textContent = "Cabin Bag Weight";
          //infoHeader.className = "product-info";
          gearCard.appendChild(infoHeader);
          const weight = document.createElement("p");
          //weight.className = "product-info";
-         weight.textContent = "Weight: "+entry.weight+"kg";
+         weight.textContent = entry.weight+"kg";
          gearCard.appendChild(weight);
          const bagFeatureTitle = document.createElement("h4");
-         bagFeatureTitle.textContent = "Features:";
+         bagFeatureTitle.textContent = "Cabin Bag Features:";
          gearCard.appendChild(bagFeatureTitle);
          //loop through and add features to results
          const bagFeatures = entry.features;
@@ -385,10 +385,9 @@ function loadFilteredResults()
         
         
          const notesHeader = document.createElement("h3");
-         notesHeader.textContent = "Travelbetter Notes:";
+         notesHeader.textContent = "Additional Informtation";
          gearCard.appendChild(notesHeader);
          const notes = document.createElement("p");
-         //notes.className = "product-info";
          notes.textContent = entry.notes;
          gearCard.appendChild(notes);
        }
@@ -502,56 +501,7 @@ function getGear()
 
   results = document.getElementById("results");
   results.innerHTML = "";
+  //Call to clear all filters (in that function it will call load filters with no filters)
   clearFilters();
- /*
-  const itemData = document.createElement("p");
- 
 
-   itemResults.ItemsResult.Items.forEach(item => {
-    const gearCard = document.createElement("div");
-     gearCard.className = "gearCard";
-    const asin = document.createElement("p");
-    asin.textContent = item.ASIN;
-     gearCard.appendChild(asin);
-   const itemImage = document.createElement("img");
-    itemImage.className = "product-image"; 
-       itemImage.src = item.Images.Primary.Large.URL;
-       gearCard.appendChild(itemImage);
-   const buyItLink = document.createElement("a");
-     buyItLink.href = item.DetailPageURL;
-     buyItLink.target = "_blank";
-     const buyItButton = document.createElement("button");
-     buyItButton.className = "buyit-button";
-     buyItButton.textContent = "Buy It Now";
-     buyItLink.appendChild(buyItButton);
-     gearCard.appendChild(buyItLink);
-     const price = document.createElement("p");
-     price.textContent = item.Offers.Listings[0].Price.DisplayAmount;
-     gearCard.appendChild(price);
-  
-     //Add additional information, if found
-     additionalInfo.forEach(entry => {
-       const asinLookup = entry.ASIN;
-       
-       if (asinLookup == item.ASIN)
-       {
-         
-         const infoHeader = document.createElement("h2");
-         infoHeader.textContent = "Additional Information";
-         gearCard.appendChild(infoHeader);
-         const notes = document.createElement("p");
-         notes.textContent = entry.notes;
-         gearCard.appendChild(notes);
-       }
-       else
-       {
-         //console.log("No Match Found");
-       }
-       
-     });
-     
-     results.appendChild(gearCard);
-   });
-
-   */
 }
