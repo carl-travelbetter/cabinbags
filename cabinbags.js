@@ -222,7 +222,7 @@ function showFilters()
    document.getElementById("clearButton").hidden = false;
    document.getElementById("hideFilters").hidden = false;
 
-   const filterContainer = document.getElementById("controls");
+   const filterContainer = document.getElementById("filters");
     if (filterContainer) {
         filterContainer.scrollIntoView({
             behavior: "smooth", // smooth scrolling
