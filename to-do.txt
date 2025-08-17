@@ -1,0 +1,4 @@
+Find and add B0DG5X8RCT to Cabinhabgs.json
+Bug - weight check returning more options then it should e.g. 3kg bag when weight is 1kg
+Improve results to have borders and spacing after text - find the good example affiliate site...was it stitch bags?
+
