@@ -5,6 +5,10 @@ body {
   box-sizing: border-box;
 }
 
+h1, h2, h3, h4, h5 {
+    color:#0170b9;
+}
+
 .pageintro {
     text-align:center;
     margin-left: auto;
@@ -34,7 +38,7 @@ body {
 
 .gearCard h3 {
   margin-top: 0;
-  color: #004080;
+  color: #0170b9;
 }
 
 .gearCard p {
