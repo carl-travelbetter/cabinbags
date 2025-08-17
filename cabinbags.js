@@ -264,7 +264,7 @@ function applyFilters()
     );
 
   //Now take the results of the feature filter and apply the weight filters
-   const weightCases = featuresCases.filter(suitcase =>
+   const weightCases = featureCases.filter(suitcase =>
      weightFilters.length === 0 || weightFilters.some(match => suitcase.weight.includes(match))
     );
  
