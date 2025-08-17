@@ -140,7 +140,8 @@ h3, h4, h5 {
     padding:0.5rem;
     background-color: #dcf0fc;
     border-radius: 12px;
-    max-width:800px;
+    width: 80%vw;
+    max-width:600px;
 }
 
 .controlbar {
