@@ -300,7 +300,9 @@ function loadFilteredResults()
    results = document.getElementById("results");
   results.innerHTML = "";
 
- 
+  const resultsHeader = document.createElement("h2");
+  resultsHeader.textContent = "Results";
+  results.appendChild(resultsHeader);
   
   //lookup a match in the main file and then create the card and append to the results
   filteredResults = itemResults.ItemsResult.Items.filter(item =>
@@ -430,6 +432,10 @@ function loadTopThreeResults()
    results = document.getElementById("results");
   results.innerHTML = "";
 
+   const resultsHeader = document.createElement("h2");
+   resultsHeader.textContent = "Top Three";
+   results.appendChild(resultsHeader);
+ 
   topThreeResults.ItemsResult.Items.forEach(item => {
     const gearCard = document.createElement("div");
     gearCard.className = "gearCard";
