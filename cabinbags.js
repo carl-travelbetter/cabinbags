@@ -116,7 +116,7 @@ function loadFilters()
      cabinUseFilters = Array.from(document.querySelectorAll('.filter-btn.active'))
         .map(btn => btn.dataset.label);
       cabinUseFilters.forEach(item => {
-       console.log(item.value);
+       console.log(""+item);
       });
     
    });  
@@ -254,7 +254,7 @@ function applyFilters()
        cabinUseFilters.length === 0 || cabinUseFilters.every(match => suitcase.cabinfit.includes(match))
    );
   cabinUseCases.forEach(item => {
-   console.log("Cabin Use Results"+item.value);
+   console.log("Cabin Use Results"+item);
   });
    
   console.log("cabin use case length "+cabinUseCases.length);
