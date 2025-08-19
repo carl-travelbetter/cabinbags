@@ -426,7 +426,7 @@ function loadFilteredResults()
          bagFeatures.forEach(id => {
            //Test working through the filters
           filters.filters.features.forEach(feat => {
-          console.log("Feature "+feat.label);
+          //console.log("Feature "+feat.label);
               if (id == feat.id)
               {
                  const featureItem = document.createElement("p");
@@ -546,7 +546,7 @@ function loadTopThreeResults()
          bagFeatures.forEach(id => {
            //Test working through the filters
           filters.filters.features.forEach(feat => {
-          console.log("Feature "+feat.label);
+          //console.log("Feature "+feat.label);
               if (id == feat.id)
               {
                  const featureItem = document.createElement("p");
