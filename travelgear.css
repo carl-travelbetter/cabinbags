@@ -88,6 +88,70 @@ h3, h4, h5 {
   border-color: #0077cc;
 }
 
+.filter-cabin-btn {
+  background-color: #fff;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;  
+  cursor: pointer;
+}
+
+.filter-cabin-btn.active {
+  background-color: #0077cc;
+  color: #fff;
+  border-color: #0077cc;
+}
+
+.filter-laptop-btn {
+  background-color: #fff;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;  
+  cursor: pointer;
+}
+
+.filter-laptop-btn.active {
+  background-color: #0077cc;
+  color: #fff;
+  border-color: #0077cc;
+}
+
+.filter-feature-btn {
+  background-color: #fff;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;  
+  cursor: pointer;
+}
+
+.filter-feature-btn.active {
+  background-color: #0077cc;
+  color: #fff;
+  border-color: #0077cc;
+}
+
+.filter-weight-btn {
+  background-color: #fff;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;  
+  cursor: pointer;
+}
+
+.filter-weight-btn.active {
+  background-color: #0077cc;
+  color: #fff;
+  border-color: #0077cc;
+}
+
 .product-image {
   display: block;
   margin-top:10px;
