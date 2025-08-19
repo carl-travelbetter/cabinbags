@@ -51,7 +51,7 @@ fetch('filters.json')
  .then (response => response.json())
  .then(data => {
    filters = data;
-   console.log("Filters Loaded...", filters);
+   console.log("Filters Loaded:", filters);
    loadFilters();
  })
  .catch(error => console.error("Error loading filters data:", error));
@@ -115,8 +115,10 @@ function loadFilters()
     
      cabinUseFilters = Array.from(document.querySelectorAll('.filter-btn.active'))
         .map(btn => btn.dataset.label);
+
+     //Temporary Check to see what options have been picked
       cabinUseFilters.forEach(item => {
-       console.log(""+item);
+       console.log("Active Cabin Use "+item);
       });
     
    });  
@@ -138,7 +140,12 @@ function loadFilters()
     
      laptopFitFilters = Array.from(document.querySelectorAll('.filter-btn.active'))
         .map(btn => btn.dataset.label);
-    
+
+     //Temporary Check to see what options have been picked
+      laptopFitFilters.forEach(item => {
+       console.log("Active Cabin Use "+item);
+      });
+   
    });  
   //Add character button to the character filters.
   laptopFitOptions.appendChild(filterButton);  
@@ -178,7 +185,11 @@ function loadFilters()
      featureFilters = Array.from(document.querySelectorAll('.filter-btn.active'))
         .map(btn => btn.dataset.label);
 
-    
+      //Temporary Check to see what options have been picked
+      featureFilters.forEach(item => {
+       console.log("Active Cabin Use "+item);
+      });
+   
    });  
   //Add character button to the character filters.
   featureOptions.appendChild(filterButton);  
@@ -199,7 +210,10 @@ function loadFilters()
      weightFilters = Array.from(document.querySelectorAll('.filter-btn.active'))
         .map(btn => btn.dataset.label);
 
-    
+     //Temporary Check to see what options have been picked
+      weightFilters.forEach(item => {
+       console.log("Active Cabin Use "+item);
+      });
    });  
   //Add character button to the character filters.
   weightOptions.appendChild(filterButton);  
@@ -253,6 +267,8 @@ function applyFilters()
   const cabinUseCases = additionalInfo.filter(suitcase =>
        cabinUseFilters.length === 0 || cabinUseFilters.every(match => suitcase.cabinfit.includes(match))
    );
+
+  //Temporary Check On Filter Results
   cabinUseCases.forEach(item => {
    console.log("Cabin Use Results"+item.ASIN);
   });
@@ -263,6 +279,11 @@ function applyFilters()
    const laptopFitCases = cabinUseCases.filter(suitcase =>
       laptopFitFilters.length === 0 || laptopFitFilters.every(match => suitcase.laptopsize.includes(match))
     );
+ 
+     //Temporary Check On Filter Results
+    laptopFitCases.forEach(item => {
+   console.log("Laptop Fit Results"+item.ASIN);
+  });
 
    console.log("lpatop fit length "+laptopFitCases.length);
 
@@ -278,10 +299,20 @@ function applyFilters()
      featureFilters.length === 0 || featureFilters.every(match => suitcase.features.includes(match))
     );
 
+    //Temporary Check On Filter Results
+    featureCases.forEach(item => {
+   console.log("Features Results"+item.ASIN);
+  });
+
   //Now take the results of the feature filter and apply the weight filters
    const weightCases = featureCases.filter(suitcase =>
      weightFilters.length === 0 || weightFilters.every(match => suitcase.weight.includes(match))
     );
+
+    //Temporary Check On Filter Results
+    weightCases.forEach(item => {
+   console.log("Weight Results"+item.ASIN);
+  });
  
    //Update the global filtered list
    filteredAdditionalInfo = weightCases;
