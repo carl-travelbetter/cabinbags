@@ -464,9 +464,20 @@ function loadFilteredResults()
 function clearFilters()
 {
   console.log("clear Filters...");
-  document.querySelectorAll('.filter-btn.active').forEach(btn => {
+  document.querySelectorAll('.filter-cabin-btn.active').forEach(btn => {
         btn.classList.remove('active');
-        
+      });
+
+  document.querySelectorAll('.filter-laptop-btn.active').forEach(btn => {
+        btn.classList.remove('active');
+      });
+
+   document.querySelectorAll('.filter-feature-btn.active').forEach(btn => {
+        btn.classList.remove('active');    
+      });
+
+   document.querySelectorAll('.filter-weight-btn.active').forEach(btn => {
+        btn.classList.remove('active');    
       });
  
         characterFilters = [];
