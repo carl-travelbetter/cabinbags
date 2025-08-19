@@ -1,4 +1,5 @@
-Fix multiple feature bug e.g select multiple weights should get lots of results while it is showing none. 
+Fix clear all bug where further filters not finding any results - check that the arrays are empty or full as required.
+Centre the sign up form - or provide link to go to sign up form on a different page (this may work better)
 Improve affiliate disclaimer colours
 Make headings dynamic to view port so they don't look silly
 Complete Features Explanation List
