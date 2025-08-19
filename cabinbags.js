@@ -254,7 +254,7 @@ function applyFilters()
        cabinUseFilters.length === 0 || cabinUseFilters.every(match => suitcase.cabinfit.includes(match))
    );
   cabinUseCases.forEach(item => {
-   console.log("Cabin Use Results"+item);
+   console.log("Cabin Use Results"+item.ASIN);
   });
    
   console.log("cabin use case length "+cabinUseCases.length);
