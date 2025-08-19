@@ -249,33 +249,33 @@ function applyFilters()
   console.log("Additional Info length "+additionalInfo.length);
  
   const cabinUseCases = additionalInfo.filter(suitcase =>
-       cabinUseFilters.length === 0 || cabinUseFilters.some(match => suitcase.cabinfit.includes(match))
+       cabinUseFilters.length === 0 || cabinUseFilters.every(match => suitcase.cabinfit.includes(match))
    );
 
   console.log("cabin use case length "+cabinUseCases.length);
 
    //Now take the results of the character cases filter and apply the type filters
    const laptopFitCases = cabinUseCases.filter(suitcase =>
-      laptopFitFilters.length === 0 || laptopFitFilters.some(match => suitcase.laptopsize.includes(match))
+      laptopFitFilters.length === 0 || laptopFitFilters.every(match => suitcase.laptopsize.includes(match))
     );
 
    console.log("lpatop fit length "+laptopFitCases.length);
 
    //Now take the results of the type filter and apply the tb ratings filters
    const tbRatingsCases = laptopFitCases.filter(suitcase =>
-     ratingsFilters.length === 0 || ratingsFilters.some(match => suitcase.tbrating.includes(match))
+     ratingsFilters.length === 0 || ratingsFilters.every(match => suitcase.tbrating.includes(match))
     );
  
    console.log("ratings length "+tbRatingsCases.length);
 
   //Now take the results of the ratings filter and apply the feature filters
    const featureCases = tbRatingsCases.filter(suitcase =>
-     featureFilters.length === 0 || featureFilters.some(match => suitcase.features.includes(match))
+     featureFilters.length === 0 || featureFilters.every(match => suitcase.features.includes(match))
     );
 
   //Now take the results of the feature filter and apply the weight filters
    const weightCases = featureCases.filter(suitcase =>
-     weightFilters.length === 0 || weightFilters.some(match => suitcase.weight.includes(match))
+     weightFilters.length === 0 || weightFilters.every(match => suitcase.weight.includes(match))
     );
  
    //Update the global filtered list
