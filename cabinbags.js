@@ -104,14 +104,14 @@ function loadFilters()
  //load the character filter buttons
  filters.filters.cabinfit.forEach(filter => {
   
-  const filterButton = document.createElement("button");
-    filterButton.className = "filter-btn";
-    filterButton.setAttribute("data-label", filter.id);
-    filterButton.innerHTML = `${filter.label}`;
+  const filterCabinUseButton = document.createElement("button");
+    filterCabinUseButton.className = "filter-btn";
+    filterCabinUseButton.setAttribute("data-label", filter.id);
+    filterCabinUseButton.innerHTML = `${filter.label}`;
 
    //Make the button do something when clicked
-  filterButton.addEventListener("click", () => {
-      filterButton.classList.toggle("active");
+  filterCabinUseButton.addEventListener("click", () => {
+      filterCabinUseButton.classList.toggle("active");
     
      cabinUseFilters = Array.from(document.querySelectorAll('.filter-btn.active'))
         .map(btn => btn.dataset.label);
@@ -129,14 +129,14 @@ function loadFilters()
  //load the type filter buttons
  filters.filters.laptopfit.forEach(filter => {
   
-  const filterButton = document.createElement("button");
-    filterButton.className = "filter-btn";
-    filterButton.setAttribute("data-label", filter.id);
-    filterButton.innerHTML = `${filter.label}`;
+  const filterLaptopButton = document.createElement("button");
+    filterLaptopButton.className = "filter-btn";
+    filterLaptopButton.setAttribute("data-label", filter.id);
+    filterLaptopButton.innerHTML = `${filter.label}`;
 
    //Make the button do something when clicked
-  filterButton.addEventListener("click", () => {
-      filterButton.classList.toggle("active");
+  filterLaptopButton.addEventListener("click", () => {
+      filterLaptopButton.classList.toggle("active");
     
      laptopFitFilters = Array.from(document.querySelectorAll('.filter-btn.active'))
         .map(btn => btn.dataset.label);
@@ -173,14 +173,14 @@ function loadFilters()
  //load the feature filter buttons
  filters.filters.features.forEach(filter => {
   
-  const filterButton = document.createElement("button");
-    filterButton.className = "filter-btn";
-    filterButton.setAttribute("data-label", filter.id);
-    filterButton.innerHTML = `${filter.label}`;
+  const filterFeatureButton = document.createElement("button");
+    filterFeatureButton.className = "filter-btn";
+    filterFeatureButton.setAttribute("data-label", filter.id);
+    filterFeatureButton.innerHTML = `${filter.label}`;
 
    //Make the button do something when clicked
-  filterButton.addEventListener("click", () => {
-      filterButton.classList.toggle("active");
+  filterFeatureButton.addEventListener("click", () => {
+      filterFeatureButton.classList.toggle("active");
     
      featureFilters = Array.from(document.querySelectorAll('.filter-btn.active'))
         .map(btn => btn.dataset.label);
@@ -198,14 +198,14 @@ function loadFilters()
  //load the character filter buttons
  filters.filters.weight.forEach(filter => {
   
-  const filterButton = document.createElement("button");
-    filterButton.className = "filter-btn";
-    filterButton.setAttribute("data-label", filter.id);
-    filterButton.innerHTML = `${filter.label}`;
+  const filterWeightButton = document.createElement("button");
+    filterWeightButton.className = "filter-btn";
+    filterWeightButton.setAttribute("data-label", filter.id);
+    filterWeightButton.innerHTML = `${filter.label}`;
 
    //Make the button do something when clicked
-  filterButton.addEventListener("click", () => {
-      filterButton.classList.toggle("active");
+  filterWeightButton.addEventListener("click", () => {
+      filterWeightButton.classList.toggle("active");
     
      weightFilters = Array.from(document.querySelectorAll('.filter-btn.active'))
         .map(btn => btn.dataset.label);
