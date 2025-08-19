@@ -187,7 +187,7 @@ function loadFilters()
 
       //Temporary Check to see what options have been picked
       featureFilters.forEach(item => {
-       console.log("Active Cabin Use "+item);
+       console.log("Active Feature "+item);
       });
    
    });  
@@ -212,7 +212,7 @@ function loadFilters()
 
      //Temporary Check to see what options have been picked
       weightFilters.forEach(item => {
-       console.log("Active Cabin Use "+item);
+       console.log("Weight Filter Selected "+item);
       });
    });  
   //Add character button to the character filters.
