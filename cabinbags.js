@@ -143,7 +143,7 @@ function loadFilters()
 
      //Temporary Check to see what options have been picked
       laptopFitFilters.forEach(item => {
-       console.log("Active Cabin Use "+item);
+       console.log("Active Laptop Fit "+item);
       });
    
    });  
