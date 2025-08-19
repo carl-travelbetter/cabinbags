@@ -123,7 +123,7 @@ function loadFilters()
     
    });  
   //Add character button to the character filters.
-  cabinUseOptions.appendChild(filterButton);  
+  cabinUseOptions.appendChild(filterCabinUseButton);  
  });
 
  //load the type filter buttons
@@ -148,7 +148,7 @@ function loadFilters()
    
    });  
   //Add character button to the character filters.
-  laptopFitOptions.appendChild(filterButton);  
+  laptopFitOptions.appendChild(filterLaptopButton);  
  });
 
  //Load the TB ratings buttons
@@ -192,7 +192,7 @@ function loadFilters()
    
    });  
   //Add character button to the character filters.
-  featureOptions.appendChild(filterButton);  
+  featureOptions.appendChild(filterFeatureButton);  
  });
 
  //load the character filter buttons
@@ -216,7 +216,7 @@ function loadFilters()
       });
    });  
   //Add character button to the character filters.
-  weightOptions.appendChild(filterButton);  
+  weightOptions.appendChild(filterWeightButton);  
  });
  
  filterTab.appendChild(cabinUseOptions);
