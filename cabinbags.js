@@ -105,7 +105,7 @@ function loadFilters()
  filters.filters.cabinfit.forEach(filter => {
   
   const filterCabinUseButton = document.createElement("button");
-    filterCabinUseButton.className = "filter-btn";
+    filterCabinUseButton.className = "filter-cabin-btn";
     filterCabinUseButton.setAttribute("data-label", filter.id);
     filterCabinUseButton.innerHTML = `${filter.label}`;
 
@@ -113,7 +113,7 @@ function loadFilters()
   filterCabinUseButton.addEventListener("click", () => {
       filterCabinUseButton.classList.toggle("active");
     
-     cabinUseFilters = Array.from(document.querySelectorAll('.filter-btn.active'))
+     cabinUseFilters = Array.from(document.querySelectorAll('.filter-cabin-btn.active'))
         .map(btn => btn.dataset.label);
 
      //Temporary Check to see what options have been picked
@@ -130,7 +130,7 @@ function loadFilters()
  filters.filters.laptopfit.forEach(filter => {
   
   const filterLaptopButton = document.createElement("button");
-    filterLaptopButton.className = "filter-btn";
+    filterLaptopButton.className = "filter-laptop-btn";
     filterLaptopButton.setAttribute("data-label", filter.id);
     filterLaptopButton.innerHTML = `${filter.label}`;
 
@@ -138,7 +138,7 @@ function loadFilters()
   filterLaptopButton.addEventListener("click", () => {
       filterLaptopButton.classList.toggle("active");
     
-     laptopFitFilters = Array.from(document.querySelectorAll('.filter-btn.active'))
+     laptopFitFilters = Array.from(document.querySelectorAll('.filter-laptop-btn.active'))
         .map(btn => btn.dataset.label);
 
      //Temporary Check to see what options have been picked
@@ -174,7 +174,7 @@ function loadFilters()
  filters.filters.features.forEach(filter => {
   
   const filterFeatureButton = document.createElement("button");
-    filterFeatureButton.className = "filter-btn";
+    filterFeatureButton.className = "filter-feature-btn";
     filterFeatureButton.setAttribute("data-label", filter.id);
     filterFeatureButton.innerHTML = `${filter.label}`;
 
@@ -182,7 +182,7 @@ function loadFilters()
   filterFeatureButton.addEventListener("click", () => {
       filterFeatureButton.classList.toggle("active");
     
-     featureFilters = Array.from(document.querySelectorAll('.filter-btn.active'))
+     featureFilters = Array.from(document.querySelectorAll('.filter-feature-btn.active'))
         .map(btn => btn.dataset.label);
 
       //Temporary Check to see what options have been picked
@@ -199,7 +199,7 @@ function loadFilters()
  filters.filters.weight.forEach(filter => {
   
   const filterWeightButton = document.createElement("button");
-    filterWeightButton.className = "filter-btn";
+    filterWeightButton.className = "filter-weight-btn";
     filterWeightButton.setAttribute("data-label", filter.id);
     filterWeightButton.innerHTML = `${filter.label}`;
 
@@ -207,7 +207,7 @@ function loadFilters()
   filterWeightButton.addEventListener("click", () => {
       filterWeightButton.classList.toggle("active");
     
-     weightFilters = Array.from(document.querySelectorAll('.filter-btn.active'))
+     weightFilters = Array.from(document.querySelectorAll('.filter-weight-btn.active'))
         .map(btn => btn.dataset.label);
 
      //Temporary Check to see what options have been picked
