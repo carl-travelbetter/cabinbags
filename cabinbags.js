@@ -482,8 +482,8 @@ function clearFilters()
         btn.classList.remove('active');    
       });
  
-        characterFilters = [];
-        typeFilters = [];
+        cabinUseFilters = [];
+        laptopFitFilters = [];
         ratingsFilters = [];
         featureFilters = [];
         weightFilters = [];
