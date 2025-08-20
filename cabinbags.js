@@ -486,6 +486,7 @@ function clearFilters()
         featureFilters = [];
         weightFilters = [];
         filteredAdditionalInfo = [];
+        console.log("Clear Filters: FilteredAdditionalInfo "+filteredAdditionalInfo.length);
         message = "Top 11 Cabin Bags";
         loadFilteredResults();
         //hideFilters();
