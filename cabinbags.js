@@ -343,7 +343,8 @@ function applyFilters()
 function loadFilteredResults()
 {
   console.log("Load Filtered Results...");
-   results = document.getElementById("results");
+  console.log("Load Filtered Results: FilteredAdditionalInfo Length "+filteredAdditionalInfo.length);
+  results = document.getElementById("results");
   results.innerHTML = "";
 
   const resultsHeader = document.createElement("h2");
@@ -490,6 +491,7 @@ function clearFilters()
         message = "Top 11 Cabin Bags";
         loadFilteredResults();
         //hideFilters();
+
 }
 
 //Return the top three results as selected by Travelbetter
