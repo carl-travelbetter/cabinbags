@@ -483,7 +483,9 @@ function clearFilters()
         characterFilters = [];
         typeFilters = [];
         ratingsFilters = [];
-        filteredAdditionalInfo = additionalInfo;
+        featureFilters = [];
+        weightFilters = [];
+        filteredAdditionalInfo = [];
         message = "Top 11 Cabin Bags";
         loadFilteredResults();
         //hideFilters();
