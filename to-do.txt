@@ -1,4 +1,4 @@
-Fix clear all bug where further filters not finding any results - check that the arrays are empty or full as required.
+
 Centre the sign up form - or provide link to go to sign up form on a different page (this may work better)
 Improve affiliate disclaimer colours
 Make headings dynamic to view port so they don't look silly
@@ -6,3 +6,4 @@ Complete Features Explanation List
 Fix spelling errror on bag guide
 Complete bag guide
 Reorder buttons, including hidding them, to give a better flow and support top and bottom control bars
+Stick filter with a drop down to show/hide it. That could be a button...
