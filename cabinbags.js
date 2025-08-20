@@ -354,7 +354,7 @@ function loadFilteredResults()
   
   //lookup a match in the main file and then create the card and append to the results
   filteredResults = itemResults.ItemsResult.Items.filter(item =>
-    filteredAdditionalInfo.length === 0 || filteredAdditionalInfo.some(match => item.ASIN.includes(match.ASIN))
+    filteredAdditionalInfo.length === 0 || filteredAdditionalInfo.every(match => item.ASIN.includes(match.ASIN))
   );
 
  
