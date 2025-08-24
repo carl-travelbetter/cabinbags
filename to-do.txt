@@ -8,4 +8,4 @@ Complete bag guide
 Reorder buttons, including hidding them, to give a better flow and support top and bottom control bars
 Stick filter with a drop down to show/hide it. That could be a button...
 Experiement with filter and load on feature select - menu flow still isn't working - results number as well
-Make sure the fitler bar is visible but no intrusive when shrunk. 
+Make sure the fitler bar is visible but not intrusive when shrunk. 
