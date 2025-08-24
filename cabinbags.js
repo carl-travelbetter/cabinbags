@@ -223,6 +223,17 @@ function loadFilters()
  filterTab.appendChild(laptopFitOptions);
  filterTab.appendChild(featureOptions);
  filterTab.appendChild(weightOptions);
+
+ const showResultsButton = document.createElement("button");
+ showResultsButton.className = "searchButton";
+ showResultsButton.textContent = "Show Results";
+ showResultsButton.addEventListener("click", () => {
+  console.log("New Show Results Buttong Pressed");
+  applyFilters();
+  hideFilters();
+ });
+ 
+ filterTab.appendChild(showResultsButton);
  //filterTab.appendChild(tbRatings);
  
 } //End of Function Load Filters
