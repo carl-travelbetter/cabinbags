@@ -208,9 +208,19 @@ h3, h4, h5 {
     max-width:600px;
 }
 
+.resultsapp {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 1rem;
+  /* Make sure the section is taller than the sticky element */
+  /* Avoid making ancestors create a new scroll container unless intended */
+}
+
 #buttons {
   position: sticky;
-  top: 0;
+  top: 1rem;          /* distance from top of viewport */
+  align-self: start;  /* ensures the grid item starts at the top */
+  z-index: 1; 
 }
 
 .controlbar {
