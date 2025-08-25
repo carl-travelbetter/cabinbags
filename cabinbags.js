@@ -228,13 +228,24 @@ function loadFilters()
  showResultsButton.className = "searchButton";
  showResultsButton.textContent = "Show Results";
  showResultsButton.addEventListener("click", () => {
-  console.log("New Show Results Buttong Pressed");
+  console.log("New Show Results Button Pressed");
   applyFilters();
   hideFilters();
  });
  
  filterTab.appendChild(showResultsButton);
  //filterTab.appendChild(tbRatings);
+
+ const clearButton = document.createElement("button");
+ clearButton.className = "searchButton";
+ clearButton.textContent = "Clear";
+ clearButton.addEventListener("click", () => {
+  console.log("New Clear Results Button Pressed");
+  clearFilters();
+ });
+
+ filterTab.appendChild(clearButton);
+
  
 } //End of Function Load Filters
 
