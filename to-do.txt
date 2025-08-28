@@ -1,5 +1,5 @@
 Experiment with a table style for the additional info - make the headers one background colour and the others a different colour
-
+Fix start point code as seems to be moving down the page and doesn't work when you go to the buying guide as it creates a new URL. 
 
 
 
