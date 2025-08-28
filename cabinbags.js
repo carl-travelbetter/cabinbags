@@ -539,6 +539,7 @@ function loadTopThreeResults()
     const itemImage = document.createElement("img");
     itemImage.className = "product-image"; 
     itemImage.src = item.Images.Primary.Large.URL;
+    itemImage.alt = item.ItemInfo.Title.DisplayValue + "Cabin Bag with Front Laptop Pocket";
     gearCard.appendChild(itemImage);
 
     //Create Product Title
